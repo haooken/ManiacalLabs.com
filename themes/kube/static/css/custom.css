@@ -1,0 +1,38 @@
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+h1.title, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Overpass', sans-serif;
+}
+
+button, .button {
+    font-family: 'Overpass', sans-serif;
+}
+
+a {
+    color: #f36926;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#posts h2 a {
+    color: #f36926;
+    text-decoration: none;
+}
+
+#posts h2 a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.button.outline {
+    background: 0 0;
+    border-width: 2px;
+    border-color: #f36926;
+    color: #f36926;
+}
