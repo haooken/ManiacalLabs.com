@@ -18,8 +18,7 @@ But with clear LEDs, the colors don't really mix together and they are far, far 
 
 Our [Replicator 2](http://store.makerbot.com/replicator2.html) made prototyping new diffusers from the comfort of Maniacal Labs HQ amazingly easy. But that doesn't mean it did not take many, many tries to get it just right. The image below shows just _some_ of the diffusers I tried before settling on the current version (shown installed on the PrismaChron on the left).
 
-[![PrismaChron Diffusers](/wp-content/uploads/2013/11/diffusers_resized.jpg)
-](/wp-content/uploads/2013/11/diffusers_resized.jpg)
+{{< figure src="/wp-content/uploads/2013/11/diffusers_resized.jpg" caption="PrismaChron Diffusers" >}}
 
 We started with clear, or "Natural", [PLA](http://en.wikipedia.org/wiki/Polylactic_acid) filament and tried a variety of shapes, thicknesses and infills1. Our initial thought was to go with a nice domed shape so it would look like a really large LED, but because 3D printers lay down the material in thin layers (around 0.1-0.3mm) the areas where these layers met caused more of a refracting effecting than a diffusing one. It looked better for sure, but you could still see the individual colors. We then moved to a completely flat surface in varying thickness, only to find that even up to as much as 3mm thick, the clear2 PLA was still far too translucent to properly diffuse the colors together.
 

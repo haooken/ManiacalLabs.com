@@ -7,8 +7,7 @@ type: post
 url: /2015/08/10/allpixel-kickstarter-retrospective/
 ---
 
-[![MainKSThumb](/wp-content/uploads/2014/11/MainKSThumb-1024x819.png)
-](/wp-content/uploads/2014/11/MainKSThumb.png)
+{{< figure src="/wp-content/uploads/2014/11/MainKSThumb.png" caption="MainKSThumb" >}}
 
 The following is an account of our experience with bringing the [AllPixel](/AllPixel) LED Controller to market through Kickstarter. We don't pretend to be experts. This just a record of what we tried, what seemed to work for us, and why we _think_ it worked. While some of this applies to crowd-funding in general, much of it is specific to the realm of electronics.
 
@@ -28,8 +27,7 @@ But then came the [2014 NC Maker Faire](/nc-maker-faire-2014/). Since the Epoch 
 
 By the end of the day we had spoken with so many people and answered so many questions that our voices were all but gone. So many of those questions were about how to use the LEDs in our displays. How to program them. How to interface with them. How to power them. These questions mulled in our brains for a couple of weeks until we realized that it didn't have to be so complicated. There had to be a way to make it generic and easy. A way to control _all_ the pixels :) Many prototypes later...
 
-[![IMG_0528-16x9](/wp-content/uploads/2014/11/IMG_0528-16x9.jpg)
-](/wp-content/uploads/2014/11/IMG_0528-16x9.jpg)
+{{< figure src="/wp-content/uploads/2014/11/IMG_0528-16x9.jpg" caption="IMG_0528-16x9" >}}
 
 We've already gone into the details of the AllPixel's creation in [another article](/2014/11/13/allpixel-update-staff-pick/), so we won't do that again. But if you want to learn more details of the development process, it's a good read.
 
@@ -43,8 +41,7 @@ We've seen far too many Kickstarter campaigns that promise a multitude of things
 
 Many think that doing this is just not possible without significant up-front investment, that it's just too expensive. But that just doesn't have to be true. It may be hard to believe, but the total development costs of the AllPixel were just $395.18:
 
-[![ProtoCosts](/wp-content/uploads/2015/07/ProtoCosts-1024x576.png)
-](/wp-content/uploads/2015/07/ProtoCosts.png)
+{{< figure src="/wp-content/uploads/2015/07/ProtoCosts.png" caption="ProtoCosts" >}}
 
 This did not include our time, of course, but right now we both have day jobs and would be doing this anyway. But certainly don't quit your day job or do this the first time for the sole purpose of making your fortune. It's best to just be content with getting your name and your design out there.
 
@@ -58,8 +55,7 @@ Beyond having a fully functional, ready to go design, we also wanted to keep the
 
 Make spreadsheets. _A lot_ of spreadsheets! You cannot set a price until you know how much the product will cost to produce and ship but don't forget that this include more than just PCBs and components. There's PCB fabrication, assembly, setup, shipping components to the assembler, testing, IC programming, kitting, packaging, and final shipping to the backer (more on shipping below). For every reward component, add a column to your spreadsheet accounting for all of the above listed costs. But you're not done yet! You also need to account for Kickstarter payment fees of 10% of the actual reward price, not the component cost. Then it's best to _include a 10% fudge factor_ applied to all cost calculations. This ensures that if anything unexpected comes up, you are less likely to wind up taking a loss. Our total costs rose to about 7% over the original estimate (without the 10% factor) so we were certainly glad to have that buffer.
 
-[![SMDPartCosts](/wp-content/uploads/2015/07/SMDPartCosts-1024x576.png)
-](/wp-content/uploads/2015/07/SMDPartCosts.png)
+{{< figure src="/wp-content/uploads/2015/07/SMDPartCosts.png" caption="SMDPartCosts" >}}
 
 Note that the cost of the Kickstarter fees is a little recursive in that they factor into your total cost, but are dependent on your sale price. In the spreadsheet above that this is factored into the calculations.
 
@@ -101,8 +97,7 @@ This first major extra was the 5 meter rolls of LEDs. Provided as a $120 tier op
 
 Second, at the suggestion of a friend, we added the $456 Christmas Kit. This was just a silly thing of which there was a very low limit, took little effort, and had decent profit margins. But it still made us $2980 / 13.7% of our total funds. Not bad :)
 
-[![Rewards](/wp-content/uploads/2015/07/Rewards-1024x575.png)
-](/wp-content/uploads/2015/07/Rewards.png)
+{{< figure src="/wp-content/uploads/2015/07/Rewards.png" caption="Rewards" >}}
 
 Last, and referenced before, was the PowerTap. Sometimes the small things surprise you.
 
@@ -158,11 +153,9 @@ Sites like Hack A Day are extremely popular in this community and we thought tha
 
 The biggest shock to us was that, in the end, a whopping 60.5% of our backers came from users browsing Kickstarter! If anything, this confirms right away that one of the best advantages of Kickstarter is the exposure it gives. We spent countless hours trying to get the word out yet the vast majority of our backers came either directly through Kickstarter or direct to it from our own site. See the graph below for more:
 
-[![Backers](/wp-content/uploads/2015/07/Backers-1024x576.png)
-](/wp-content/uploads/2015/07/Backers.png)
+{{< figure src="/wp-content/uploads/2015/07/Backers.png" caption="Backers" >}}
 
-[![Funding](/wp-content/uploads/2015/07/Funding-1024x576.png)
-](/wp-content/uploads/2015/07/Funding.png)
+{{< figure src="/wp-content/uploads/2015/07/Funding.png" caption="Funding" >}}
 
 
 
@@ -178,8 +171,7 @@ Now is the time where your initial fulfillment time estimates will be put to the
 
 Now is also when your original cost estimates will be tested. If you did not plan well, you may either be left with a lot of debt or no way to fulfill the rewards. Fortunately, our estimates were quite sufficient, just check out the chart below:
 
-[![Funds](/wp-content/uploads/2015/07/Funds-1024x576.png)
-](/wp-content/uploads/2015/07/Funds.png)
+{{< figure src="/wp-content/uploads/2015/07/Funds.png" caption="Funds" >}}
 
 
 

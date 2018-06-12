@@ -9,8 +9,7 @@ categories:
 - Announcements
 ---
 
-[![](/wp-content/uploads/2017/04/prelaunch_busbardemo2_small.jpg)
-](https://www.crowdsupply.com/maniacal-labs-wyolum/ultim8x8)
+{{< figure src="https://www.crowdsupply.com/maniacal-labs-wyolum/ultim8x8" caption="" >}}
 
 
 

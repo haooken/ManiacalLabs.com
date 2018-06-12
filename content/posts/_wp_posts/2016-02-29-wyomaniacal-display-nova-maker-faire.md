@@ -41,4 +41,3 @@ That's all for now. Check out the gallery below, or see it in person at [NoVA Ma
 
 {{< gallery dir="/wp-content/galleries/2016-02-29-wyomaniacal-display-nova-maker-faire/0/" />}}
 
-{{< load-photoswipe >}}

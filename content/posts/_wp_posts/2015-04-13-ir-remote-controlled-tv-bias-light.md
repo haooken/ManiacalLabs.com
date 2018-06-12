@@ -28,11 +28,9 @@ Speaking of overkill; I should note that using the WS2801 strips was definitely 
 
 The hookup is pretty simple. First, follow the [TSOP38238 datasheep](http://www.vishay.com/docs/82491/tsop382.pdf) and connect pin 1 of the sensor to pin 2 on the Pro Mini, 2 to 3, and 3 to 4.
 
-[![BiasLight](/wp-content/uploads/2015/04/IMG_20150412_191217-3.jpg)
-](/wp-content/uploads/2015/04/IMG_20150412_191217-3.jpg)
+{{< figure src="/wp-content/uploads/2015/04/IMG_20150412_191217-3.jpg" caption="BiasLight" >}}
 
-[![BiasLight](/wp-content/uploads/2015/04/IMG_20150412_163928-2.jpg)
-](/wp-content/uploads/2015/04/IMG_20150412_163928-2.jpg)
+{{< figure src="/wp-content/uploads/2015/04/IMG_20150412_163928-2.jpg" caption="BiasLight" >}}
 
 What I did with the pin hookup here is cheating a little. I didn't want to require any fancy wiring, so I just use Arduino pin 2 as the input pin, but then set pin 3 as OUTPUT/LOW (Ground) and pin 4 as OUTPUT/HIGH (VCC). A nice little trick when you have extra pins and want to power something lower powered without having to connect to proper Ground and VCC. You just have to add the following code as the first thing in setup():
 
@@ -45,8 +43,7 @@ What I did with the pin hookup here is cheating a little. I didn't want to requi
 
 Next, hook up the LED strip connection. I used a 4 pin JST connector (since that's what is on the LED strip) and wired the Data line to pin 11 (MOSI) and Clock line to pin 13 (CLK). Then, VCC and Ground were connected to the VCC and Ground Arduino pins, as were two more wires that I connected to one of the handy screw terminal barrel jack adapters I keep on hand. Connecting the power this way allows powering both the LED strip and the Arduino off the same 5V power adapter.
 
-[![BiasLight](/wp-content/uploads/2015/04/IMG_20150412_163919-1.jpg)
-](/wp-content/uploads/2015/04/IMG_20150412_163919-1.jpg)
+{{< figure src="/wp-content/uploads/2015/04/IMG_20150412_163919-1.jpg" caption="BiasLight" >}}
 
 For the software, I used a great IR library called [IRLib](https://github.com/cyborg5/IRLib/) which really makes reading the IR input super easy. The LEDs were, of course, controlled by the awesome [FastLED](http://FastLED.io) which is also at the heart of the AllPixel :) You can checkout all the final code at the [IRBiasLight GitHub repo](https://github.com/ManiacalLabs/IRBiasLight) but I want to make a couple notes:
 

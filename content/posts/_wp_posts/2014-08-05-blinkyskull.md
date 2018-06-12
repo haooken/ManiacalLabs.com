@@ -36,4 +36,3 @@ I guess the main take-away from this how well the Arduino Pro Mini and the NeoPi
 
 -Dan
 
-{{< load-photoswipe >}}

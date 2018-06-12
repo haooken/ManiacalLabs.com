@@ -30,4 +30,3 @@ For more details and all of the pricing information, head over to the [Tindie fu
 {{< gallery dir="/wp-content/galleries/2013-11-11-announcing-the-prismachron/0/" />}}
 
 
-{{< load-photoswipe >}}

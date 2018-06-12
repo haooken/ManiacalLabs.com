@@ -11,8 +11,7 @@ categories:
 
 Friend of Maniacal Labs, Josh, is a _huge_ Ghostbusters fan. How much, you ask? This much:
 
-[![Ecto Mini](/wp-content/uploads/2013/09/ecto-mini-1024x768.jpg)
-](/wp-content/uploads/2013/09/ecto-mini.jpg)
+{{< figure src="/wp-content/uploads/2013/09/ecto-mini.jpg" caption="Ecto Mini" >}}
 
 Why yes, that is a Mini Cooper Ecto-1.
 
@@ -22,8 +21,7 @@ A couple weeks ago, Josh emailed me asking if it was possible to get en Epoch Cl
 
 Yup, that's a Proton Pack, the only problem with it being that it didn't belong to Josh. He has one, but without the awesome, pulsing LED bar. His initial thought was that he could just install the blue LEDs in the clock in place of the red ones (while also changing out the 330 ohm resistors for 150 ohm). Unfortunately, after some measuring we realized that the 6.5" long clock was a bit _too_ long for the slot in his Proton Pack. But after a little brainstorming, we realized that if we reconfigured the LEDs to two columns of 32 an spaced them slightly farther apart it should fit perfectly. The original idea was to wire it all up on some perf-board but then he wouldn't be able to get the desired spacing and, well, it would be somewhat of a pain to build. So I decided to see what I could come up with in terms of a custom printed board and this was the result:
 
-[![ecto adapter front](/wp-content/uploads/2013/09/ecto-front-1024x184.png)
-](/wp-content/uploads/2013/09/ecto-front.png)
+{{< figure src="/wp-content/uploads/2013/09/ecto-front.png" caption="ecto adapter front" >}}
 
 So, now the plan was simply to solder female headers to the clock board, solder some more to the above adapter board, onto which all the LEDs go, connect the two with some ribbon cable, and reprogram the firmware a little to get the desired animation.  The adapter was pretty cheap for three copies from the wonderful [OSH Park](http://oshpark.com) so Josh ordered some and I got a kit to him with some blue LEDs that I picked up in a recent [Mouser](http://mouser.com) order. Then, today, Josh sent me this:
 
@@ -42,4 +40,3 @@ Want to make your own? As is our way, all the source code and board designs are 
 It's projects like this what really make us here at Maniacal Labs love what we do. When we designed the Epoch Clock we had a few ideas for alternate uses but it's the projects that we _didn't_ think of that really astound us. We wouldn't even be here without such a great community.
 
 
-{{< load-photoswipe >}}

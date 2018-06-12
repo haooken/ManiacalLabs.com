@@ -29,18 +29,15 @@ After a call to [Dan](/author/dan/) to see if he had the few parts I was lacking
 
 The parts hookup looks like this:
 
-[![WakeupLight_bb](/wp-content/uploads/2014/07/WakeupLight_bb-300x221.png)
-](/wp-content/uploads/2014/07/WakeupLight_bb-e1406595439385.png)
+{{< figure src="/wp-content/uploads/2014/07/WakeupLight_bb-e1406595439385.png" caption="WakeupLight_bb" >}}
 
 <!-- more -->
 
 Or, in the real world:
 
-[![WakeupLight Breadboard](/wp-content/uploads/2014/07/IMG_20140727_165242-300x225.jpg)
-](/wp-content/uploads/2014/07/IMG_20140727_165242-e1406595398171.jpg)
+{{< figure src="/wp-content/uploads/2014/07/IMG_20140727_165242-e1406595398171.jpg" caption="WakeupLight Breadboard" >}}
 
-[![WakeupLight Power Board](/wp-content/uploads/2014/07/IMG_20140727_165251-225x300.jpg)
-](/wp-content/uploads/2014/07/IMG_20140727_165251-e1406595372197.jpg)
+{{< figure src="/wp-content/uploads/2014/07/IMG_20140727_165251-e1406595372197.jpg" caption="WakeupLight Power Board" >}}
 
 The green board exists purely because I couldn't fit the MOSFET on the breadboard with everything else. Ignore the L7805 regulator (the TO-220 package with the capacitors); I forgot that the Pro Mini had a built in voltage regulator capable of up to 12V.
 
@@ -52,13 +49,11 @@ That's really all there is to the hookup. The alarm functionality works by stori
 
 I installed the strips in 4 rows, wired in parallel, onto a scrap 1x3 board I had lying around. As you can see from the picture below, they are quite bright, but only draw about 10W. I even added a function where you can press and hold one of the buttons to just turn the light on or off since it's now the brightest light in that room.
 
-[![WakeupLight On](/wp-content/uploads/2014/07/IMG_20140727_172248-300x225.jpg)
-](/wp-content/uploads/2014/07/IMG_20140727_172248-e1406595310979.jpg)
+{{< figure src="/wp-content/uploads/2014/07/IMG_20140727_172248-e1406595310979.jpg" caption="WakeupLight On" >}}
 
 The board with the LED strips was then installed directly behind the headboard of our bed so that it would provide bright, ambient light, but never be directly in your face. The picture below is of the strip at full brightness, having just completed the fade-in from testing the alarm.
 
-[![WakeupLight Installed](/wp-content/uploads/2014/07/DSC_6421-300x200.jpg)
-](/wp-content/uploads/2014/07/DSC_6421.jpg)
+{{< figure src="/wp-content/uploads/2014/07/DSC_6421.jpg" caption="WakeupLight Installed" >}}
 
 For now, this is just a very rough prototype to see if it even works for my wife. If it does, I will be making a bespoke PCB for it and a nice case, probably with some big, arcade style buttons.
 

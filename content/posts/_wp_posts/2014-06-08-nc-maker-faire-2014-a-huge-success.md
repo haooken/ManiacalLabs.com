@@ -17,5 +17,4 @@ Now... copious amounts of sleep. Until next year!
 
 -Adam
 
-[![Maker Faire 2014](/wp-content/uploads/2014/06/MF2014.jpg)
-](/wp-content/uploads/2014/06/MF2014.jpg)
+{{< figure src="/wp-content/uploads/2014/06/MF2014.jpg" caption="Maker Faire 2014" >}}

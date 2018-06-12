@@ -35,4 +35,3 @@ Also, you can grab the KiCad design files from our [GitHub repository](https://g
 
 **Note: The silkscreen labels has been tweaked since what you see in the picture (see the OSH Park renders) as they were not very visible. They have been increased in size and re-oriented for better visibility.
 
-{{< load-photoswipe >}}

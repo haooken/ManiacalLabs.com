@@ -17,15 +17,13 @@ Some time ago, I picked up a set of three outlets that can be toggled on and off
 
 
 
-**[![RemoteBuild_ClosedSideView](/wp-content/uploads/2014/04/RemoteBuild_ClosedSideView-300x225.jpg)
-](/wp-content/uploads/2014/04/RemoteBuild_ClosedSideView.jpg)**
+**{{< figure src="/wp-content/uploads/2014/04/RemoteBuild_ClosedSideView.jpg" caption="RemoteBuild_ClosedSideView" >}}**
 
 
 
 
 
-[![RemoteBuild_TestSetup](/wp-content/uploads/2014/04/RemoteBuild_TestSetup-300x225.jpg)
-](/wp-content/uploads/2014/04/RemoteBuild_TestSetup.jpg)
+{{< figure src="/wp-content/uploads/2014/04/RemoteBuild_TestSetup.jpg" caption="RemoteBuild_TestSetup" >}}
 
 
 
@@ -37,22 +35,19 @@ By soldering on two wires to either side of the button for outlet 3, I was able 
 
 
 
-[![RemoteBuild_Prebuild](/wp-content/uploads/2014/04/RemoteBuild_Prebuild-300x225.jpg)
-](/wp-content/uploads/2014/04/RemoteBuild_Prebuild.jpg)
+{{< figure src="/wp-content/uploads/2014/04/RemoteBuild_Prebuild.jpg" caption="RemoteBuild_Prebuild" >}}
 
 
 
 
 
-[![RemoteBuild_PCBunderside](/wp-content/uploads/2014/04/RemoteBuild_PCBunderside-300x225.jpg)
-](/wp-content/uploads/2014/04/RemoteBuild_PCBunderside.jpg)
+{{< figure src="/wp-content/uploads/2014/04/RemoteBuild_PCBunderside.jpg" caption="RemoteBuild_PCBunderside" >}}
 
 
 
 
 
-[![RemoteBuild_OpenSideView](/wp-content/uploads/2014/04/RemoteBuild_OpenSideView-300x225.jpg)
-](/wp-content/uploads/2014/04/RemoteBuild_OpenSideView.jpg)
+{{< figure src="/wp-content/uploads/2014/04/RemoteBuild_OpenSideView.jpg" caption="RemoteBuild_OpenSideView" >}}
 
 
 
@@ -60,15 +55,13 @@ So now, if I were to short those two headers together, the circuit completes and
 
 
 
-[![Circuit](/wp-content/uploads/2014/04/Circuit.png)
-](/wp-content/uploads/2014/04/Circuit.png)
+{{< figure src="/wp-content/uploads/2014/04/Circuit.png" caption="Circuit" >}}
 
 
 
 
 
-[![RemoteBuild_TestCircuit](/wp-content/uploads/2014/04/RemoteBuild_TestCircuit-300x225.jpg)
-](/wp-content/uploads/2014/04/RemoteBuild_TestCircuit.jpg)
+{{< figure src="/wp-content/uploads/2014/04/RemoteBuild_TestCircuit.jpg" caption="RemoteBuild_TestCircuit" >}}
 
 
 

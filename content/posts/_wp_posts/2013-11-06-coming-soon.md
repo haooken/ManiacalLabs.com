@@ -11,8 +11,7 @@ categories:
 - Tindie
 ---
 
-[![CC_Teaser](/wp-content/uploads/2013/11/DSC_3626.jpg)
-](/wp-content/uploads/2013/11/DSC_3626.jpg)
+{{< figure src="/wp-content/uploads/2013/11/DSC_3626.jpg" caption="CC_Teaser" >}}
 
 Good news everyone! In just a few days, on Monday, November 11th, we'll be launching a new kit!
 

@@ -13,8 +13,7 @@ First off, hopefully after the end of this month, activity on the site will pick
 
 In the mean time, here's a quick look at some updates I've made to the [Polar Giraffe](/2014/01/21/enter-the-polar-giraffe/). Those who were able to see it at Maker Faire NC commented on how the the gondola was floating in mid-air. There were even a few claims of magnets.
 
-[![PolarGRaph](/wp-content/uploads/2014/06/ML_PolarGRaph_small-229x300.jpg)
-](/wp-content/uploads/2014/06/ML_PolarGRaph_small.jpg)
+{{< figure src="/wp-content/uploads/2014/06/ML_PolarGRaph_small.jpg" caption="PolarGRaph" >}}
 
 <!-- more -->
 
@@ -22,23 +21,19 @@ This was because of the spool/fishing line method used to suspend the gondola fr
 
 To solve this, I went with a method others have used for these kinds of devices: beaded cord.
 
-[![NewSpools](/wp-content/uploads/2014/06/IMG_20140617_175100-300x224.jpg)
-](/wp-content/uploads/2014/06/IMG_20140617_175100.jpg)
+{{< figure src="/wp-content/uploads/2014/06/IMG_20140617_175100.jpg" caption="NewSpools" >}}
 
 The beaded cord (like what you would find in window blinds) fits nicely into the 3D-Printed sprockets. This method solves both the 'skipping while winding' and 'changing diameter' problems.
 
 In addition, Adam decided to play around with 123D Design a bit and whacked together these nifty mounts. No more warped pieces of wood!
 
-[![NewMountSide](/wp-content/uploads/2014/06/IMG_20140623_190753-300x224.jpg)
-](/wp-content/uploads/2014/06/IMG_20140623_190753.jpg)
+{{< figure src="/wp-content/uploads/2014/06/IMG_20140623_190753.jpg" caption="NewMountSide" >}}
 
-[![NewMountTop](/wp-content/uploads/2014/06/IMG_20140623_190818-300x224.jpg)
-](/wp-content/uploads/2014/06/IMG_20140623_190818.jpg)
+{{< figure src="/wp-content/uploads/2014/06/IMG_20140623_190818.jpg" caption="NewMountTop" >}}
 
 Before, the fishing line wound and unwound from the bottom of the spool. Because of how the cord now wraps around the top of the spool, the code needs to be tweaked a bit. Everything else should be fine, but the shafts need to spin in the opposite direction. Just a minor tweak, and then I'll be back to printing (slightly more accurate) drawings.
 
-[![BeadedCordSetup](/wp-content/uploads/2014/06/IMG_20140624_183223-224x300.jpg)
-](/wp-content/uploads/2014/06/IMG_20140624_183223.jpg)
+{{< figure src="/wp-content/uploads/2014/06/IMG_20140624_183223.jpg" caption="BeadedCordSetup" >}}
 
 And I'll have to fashion better counterweights at some point. Maybe :P.
 

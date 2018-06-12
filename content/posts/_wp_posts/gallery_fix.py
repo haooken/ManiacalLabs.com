@@ -90,7 +90,7 @@ for f in all_files:
 
             c += 1
 
-        cont += ('\n' + '{{< load-photoswipe >}}')
+        cont += ('\n' + '')
         with open(f, 'w') as out:
             out.write(cont)
 

@@ -123,4 +123,3 @@ Stay tuned because there will certainly be more to come. Colossus will absolutel
 
 Happy Making!
 
-{{< load-photoswipe >}}

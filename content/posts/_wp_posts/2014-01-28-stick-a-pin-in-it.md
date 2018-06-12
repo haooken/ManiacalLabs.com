@@ -11,8 +11,7 @@ categories:
 - Tutorial
 ---
 
-[![Stick a Pin in It](/wp-content/uploads/2014/01/IMG_20140128_1554221.jpg)
-](/wp-content/uploads/2014/01/IMG_20140128_1554221.jpg)
+{{< figure src="/wp-content/uploads/2014/01/IMG_20140128_1554221.jpg" caption="Stick a Pin in It" >}}
 
 I've been working on a side project that uses some of the WS2812 based LED strips, just like the "NeoPixel" strips from [Adafruit](http://www.adafruit.com/products/1461). Unfortunately, I began having problems with the strips in that they suddenly stopped responding to any control signals being sent to them. My suspicion was either a broken solder point or a dead pixel. Since they function by buffering the data and then sending it along to the next pixel in the line they have that old style Christmas lights problem of all lights after a broken light will not function.
 

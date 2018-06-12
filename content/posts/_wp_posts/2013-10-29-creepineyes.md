@@ -15,13 +15,11 @@ Realizing that Halloween was only a few days away, I thought to myself "Self, yo
 
 Each pair of eyes uses an ATTiny85 chip and two 10mm red LEDs. Since Halloween decorations displayed year-round are frowned upon by my homeowner's association, I also wanted these to be temporary. Luckily, I had a few protoboards that I could tie up for a few days.
 
-[![CreepinEyes_3boards](/wp-content/uploads/2013/10/CreepinEyes_3boards-300x225.png)
-](/wp-content/uploads/2013/10/CreepinEyes_3boards.png)
+{{< figure src="/wp-content/uploads/2013/10/CreepinEyes_3boards.png" caption="CreepinEyes_3boards" >}}
 
 Since this is a simple, temporary project, I made use of the awesome [Arduino-Tiny](https://code.google.com/p/arduino-tiny/) set of "cores" for the Arduino IDE. Arduino-Tiny allows for a variety of ATTiny chips to be programmed directly form the Arduino IDE. There may not be 100% functionality, but it's darn close. But of course the ability to blink lights is there, hehe. All I had to do was throw together the code and upload using my [USBTinyISP](http://www.adafruit.com/products/46).
 
-[![CreepinEyes_prototyping](/wp-content/uploads/2013/10/CreepinEyes_prototyping-300x225.png)
-](/wp-content/uploads/2013/10/CreepinEyes_prototyping.png)
+{{< figure src="/wp-content/uploads/2013/10/CreepinEyes_prototyping.png" caption="CreepinEyes_prototyping" >}}
 
 Speaking of the code, here it is:
 

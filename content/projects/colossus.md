@@ -9,6 +9,6 @@ toc: true
 
 Testing gallery
 
-{{< load-photoswipe >}}
+
 
 {{< gallery dir="/wp-content/uploads/2013/09">}}

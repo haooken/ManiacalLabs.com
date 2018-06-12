@@ -9,8 +9,7 @@ url: /2015/05/04/review-code-adafruit-dotstar-disk/
 
 About a week ago, Adafruit released [this beauty](http://www.adafruit.com/products/2477):
 
-[![APA102Disk](/wp-content/uploads/2015/05/APA102Disk.png)
-](/wp-content/uploads/2015/05/APA102Disk.png)
+{{< figure src="/wp-content/uploads/2015/05/APA102Disk.png" caption="APA102Disk" >}}
 
 Needless to say, I bought one immediately.
 

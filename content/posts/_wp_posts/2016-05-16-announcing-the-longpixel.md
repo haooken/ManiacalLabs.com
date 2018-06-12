@@ -21,5 +21,4 @@ To help get the [LongPixel](/LongPixel) into the hands of LED lovers at a reason
 
 Checkout the [Kickstarter](https://www.kickstarter.com/projects/maniacallabs/longpixel-digital-control-for-analog-led-strips) campaign learn more.
 
-[![LongPixel Kickstarter](/wp-content/uploads/2016/05/KickstarterMainImage.png)
-](https://www.kickstarter.com/projects/maniacallabs/longpixel-digital-control-for-analog-led-strips)
+{{< figure src="https://www.kickstarter.com/projects/maniacallabs/longpixel-digital-control-for-analog-led-strips" caption="LongPixel Kickstarter" >}}

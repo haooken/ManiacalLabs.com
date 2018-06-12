@@ -19,4 +19,3 @@ If you have access to a 3D printer, you can grab the model file [from Thingivers
 {{< gallery dir="/wp-content/galleries/2013-09-07-getting-all-your-leds-in-a-row/0/" />}}
 
 
-{{< load-photoswipe >}}

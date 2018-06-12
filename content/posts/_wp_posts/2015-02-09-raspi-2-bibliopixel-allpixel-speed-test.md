@@ -15,18 +15,15 @@ The constant pixel test used the easy Bloom version and maintained a constant 60
 
 The test hardware used consisted of four final revision AllPixel driver boards, a Raspberry Pi 2 Model B and a Raspberry Pi Model B+. To ensure there was no difference due to software version, the same SD card was simply swapped between the Pis.
 
-[![Pi2SpeedTestEasy](/wp-content/uploads/2015/02/Easy.png)
-](/wp-content/uploads/2015/02/Easy.png)
+{{< figure src="/wp-content/uploads/2015/02/Easy.png" caption="Pi2SpeedTestEasy" >}}
 
 In the Easy animation test, you can see that the Pi 2 provides as much as a 300% speed improvement with threading and 200% without.
 
-[![Pi2SpeedTestHard](/wp-content/uploads/2015/02/Hard.png)
-](/wp-content/uploads/2015/02/Hard.png)
+{{< figure src="/wp-content/uploads/2015/02/Hard.png" caption="Pi2SpeedTestHard" >}}
 
 In the Hard animation test, you can see that the Pi 2 provides nearly a 400% speed improvement for threaded _and_ non-threaded tests. You might have noticed for both the easy and hard tests that the single driver non-threaded was faster than the threaded on the Pi 2, for one driver. We're not 100% sure what's going on in that case... this will require more investigation. But it's likely that the overhead of running the serial communication on another thread isn't overcome by the speed gains of using multiple drivers. As you'll notice, the more drivers used, the greater the difference between multi and single threaded.
 
-[![Pi2SpeedTestConstant](/wp-content/uploads/2015/02/Constant.png)
-](/wp-content/uploads/2015/02/Constant.png)
+{{< figure src="/wp-content/uploads/2015/02/Constant.png" caption="Pi2SpeedTestConstant" >}}
 
 The constant pixel count test was really interesting. The single threaded version on the Pi 2 was consistently faster than the multiple threaded version, but almost the same once you get to four drivers. Each driver is running less pixels as the driver count increases, but there's a minimum overhead incurred which only becomes negated as the driver count increases.
 

@@ -7,8 +7,7 @@ type: post
 url: /2015/10/21/allpixel-and-powertap-now-available-from-mcm-electronics/
 ---
 
-[![MCM_Logo-01[1]](/wp-content/uploads/2015/10/MCM_Logo-011-300x129.jpg)
-](/wp-content/uploads/2015/10/MCM_Logo-011-e1445463199291.jpg)
+{{< figure src="/wp-content/uploads/2015/10/MCM_Logo-011-e1445463199291.jpg" caption="MCM_Logo-01[1]" >}}
 
 We are pleased to announce that the AllPixel and PowerTap are now available in the USA direct from [MCM Electronics](http://www.mcmelectronics.com/product/83-16986)!
 

@@ -28,8 +28,7 @@ The fine people at WyoLum sent us a prototype version of their [TiM](http://wyol
 
 TiM is a 16x8 matrix of WS2812 LEDs with a little twist. Instead of the usual serpentine layout of the LEDs the TiM can be used in parallel mode where you control each of the 8 rows individually. This can allow slightly faster update speed with the WS2812 if you were using a bunch of these displays together. This is not supported on the AllPixel, but that's OK, because you can _also_ configure the board to run in that usual serial mode where there's a single data input and output.
 
-[![WyoLum TiM](/wp-content/uploads/2014/11/IMG_0571-16x9.jpg)
-](/wp-content/uploads/2014/11/IMG_0571-16x9.jpg)
+{{< figure src="/wp-content/uploads/2014/11/IMG_0571-16x9.jpg" caption="WyoLum TiM" >}}
 
 The new TinyTiM is the same great setup as the TiM but in an 8x8 configuration and with updated connection options including chainable IDC connectors.
 
@@ -37,4 +36,3 @@ The new TinyTiM is the same great setup as the TiM but in an 8x8 configuration a
 
 We've used a ton of different LED displays and strips, but it's always great to see the AllPixel working with another. If you want great and super easy to use matrices for use with your AllPixel, you can't go wrong with any of these. It's a lot easier than [building your own](/2014/08/19/24x24-led-matrix-build/)! Thanks so much to both RGB-123 and WyoLum!
 
-{{< load-photoswipe >}}

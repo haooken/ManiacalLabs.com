@@ -11,10 +11,8 @@ The last week has been seriously busy here at Maniacal Labs HQ since we got the 
 
 Second we've just released printable design files for a nice little case for the AllPixel:
 
-[![APCaseRainbow](/wp-content/uploads/2015/03/647e69521b30f6864244007ff2a2e94e_original1.png)
-](/wp-content/uploads/2015/03/647e69521b30f6864244007ff2a2e94e_original1.png)
+{{< figure src="/wp-content/uploads/2015/03/647e69521b30f6864244007ff2a2e94e_original1.png" caption="APCaseRainbow" >}}
 
-[![APCaseOrange](/wp-content/uploads/2015/03/5beb944c45e49e65aa554c13a710a80d_original1.png)
-](/wp-content/uploads/2015/03/5beb944c45e49e65aa554c13a710a80d_original1.png)
+{{< figure src="/wp-content/uploads/2015/03/5beb944c45e49e65aa554c13a710a80d_original1.png" caption="APCaseOrange" >}}
 
 The designs are all available on [Thingiverse](http://www.thingiverse.com/thing:725143) and the [AllPixel GitHub](https://github.com/ManiacalLabs/AllPixel/tree/master/Case) repository. If you don't have access to a 3D printer yourself, we highly recommend [MakeXYZ](makexyz.com), [3dHubs.com](3dhubs.com), or [Shapeways](shapeways.com) to get one printed for you.

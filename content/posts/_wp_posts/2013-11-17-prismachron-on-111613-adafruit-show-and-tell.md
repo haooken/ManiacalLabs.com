@@ -7,8 +7,7 @@ type: post
 url: /2013/11/17/prismachron-on-111613-adafruit-show-and-tell/
 ---
 
-[![As Seen on Adafruit](/wp-content/uploads/2013/11/943_LRG1.jpg)
-](/wp-content/uploads/2013/11/943_LRG1.jpg)
+{{< figure src="/wp-content/uploads/2013/11/943_LRG1.jpg" caption="As Seen on Adafruit" >}}
 
 Many thanks to [Adafruit](http://adafruit.com) for letting us show off our new [PrismaChron](https://www.tindie.com/products/ManiacalLabs/prismachron-clock/) on tonight's Show-And-Tell!
 

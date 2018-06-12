@@ -11,37 +11,32 @@ I was playing around with the Replicator 2 and this popped out. I took the botto
 
 
 
-[![TinyTimAPStand (5)](/wp-content/uploads/2015/03/TinyTimAPStand-5-300x225.jpg)
-](/wp-content/uploads/2015/03/TinyTimAPStand-5.jpg)
+{{< figure src="/wp-content/uploads/2015/03/TinyTimAPStand-5.jpg" caption="TinyTimAPStand (5)" >}}
 
 
 
 
 
-[![TinyTimAPStand (2)](/wp-content/uploads/2015/03/TinyTimAPStand-2-300x225.jpg)
-](/wp-content/uploads/2015/03/TinyTimAPStand-2.jpg)
-
-
-
+{{< figure src="/wp-content/uploads/2015/03/TinyTimAPStand-2.jpg" caption="TinyTimAPStand (2)" >}}
 
 
 
 
 
 
-[![TinyTimAPStand (3)](/wp-content/uploads/2015/03/TinyTimAPStand-3-300x225.jpg)
-](/wp-content/uploads/2015/03/TinyTimAPStand-3.jpg)
+
+
+
+{{< figure src="/wp-content/uploads/2015/03/TinyTimAPStand-3.jpg" caption="TinyTimAPStand (3)" >}}
 
 
 
 
 
-[![TinyTimAPStand (4)](/wp-content/uploads/2015/03/TinyTimAPStand-4-300x225.jpg)
-](/wp-content/uploads/2015/03/TinyTimAPStand-4.jpg)
+{{< figure src="/wp-content/uploads/2015/03/TinyTimAPStand-4.jpg" caption="TinyTimAPStand (4)" >}}
 
 
 
 
 
-[![TinyTimAPStand (1)](/wp-content/uploads/2015/03/TinyTimAPStand-1-300x225.jpg)
-](/wp-content/uploads/2015/03/TinyTimAPStand-1.jpg)
+{{< figure src="/wp-content/uploads/2015/03/TinyTimAPStand-1.jpg" caption="TinyTimAPStand (1)" >}}

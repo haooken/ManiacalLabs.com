@@ -69,4 +69,3 @@ Once the header file is created, copy it to Image.h in the EpochPOV firmware dir
 Don't have a Binary Epoch Clock? [Buy one](/product/becv1/) and download the [EpochPOV firmware](https://github.com/ManiacalLabs/EpochPOV) now!
 
 
-{{< load-photoswipe >}}

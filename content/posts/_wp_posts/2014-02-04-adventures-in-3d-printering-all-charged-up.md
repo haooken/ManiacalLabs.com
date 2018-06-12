@@ -19,8 +19,7 @@ Queue [123D Design](http://www.123dapp.com/design). Not being a professional at 
 
 Not bad if I say so myself :) But, first, a test print to check the sizing!
 
-[![ChargerTestFit](/wp-content/uploads/2014/02/ChargerTestFit.jpg)
-](/wp-content/uploads/2014/02/ChargerTestFit.jpg)
+{{< figure src="/wp-content/uploads/2014/02/ChargerTestFit.jpg" caption="ChargerTestFit" >}}
 
 I made this quick little frame to make sure the charger would fit perfectly and it was a good thing I did because the hole was slightly too large and the corner radius was too small. Oops. Good thing too; the test print only took about 5 minutes whereas the full stand would take over 6 hours! Always to test fit prints!
 
@@ -35,4 +34,3 @@ It should work with other [Qi Wireless](http://en.wikipedia.org/wiki/Qi_(wireles
 Mine, is definitely not the first wireless charging stand I've found but I could not find one for this specific charger. You can find the 123D Design and STL files over on [Thingiverse](http://www.thingiverse.com/thing:240360). Any suggestions for updates are welcomed. If you don't have a 3D printer and want one of these stands, let us know, we just might print one for you!
 
 
-{{< load-photoswipe >}}

@@ -11,8 +11,7 @@ categories:
 
 A friend asked me a few days ago if I knew of a way to remotely monitor multiple different points of temperature, log the data, and generate an email alert if  sensor reading went out of bounds. Since I happened to have a 'project-in-progress' with just that goal, I decided I should finish it. Or, rather, get it to a working state.
 
-[![QTP_Complete](/wp-content/uploads/2014/09/QTP_Complete-300x199.jpg)
-](/wp-content/uploads/2014/09/QTP_Complete.jpg)
+{{< figure src="/wp-content/uploads/2014/09/QTP_Complete.jpg" caption="QTP_Complete" >}}
 
 <!-- more -->
 
@@ -57,10 +56,8 @@ Software:
 
 
 
-To make installation easier, I built a custom...whatever they call things that attach to the Pi ("plates"?). It uses a ZVNL110A N-Channel MOSFET to do the level conversion for the sensors. They will actually work at 3.3V, but I wanted to use higher voltage due to the length of the wires (~20'), just to be on the safe side. Other than the MOSFET, the board has the 4.7K resistor for the sensors and 4 3-pin JST connections. I've included a schematic below that shows how all of this is wired up. Note that the JST connectors aren't entirely necessary, but they do make installation/re-configuring/removal easier. You could always hard-wire the sensors to the board.[![QTP_BoardBottom](/wp-content/uploads/2014/09/QTP_BoardBottom-300x213.jpg)
-](/wp-content/uploads/2014/09/QTP_BoardBottom.jpg)[![QTP_BoardTop](/wp-content/uploads/2014/09/QTP_BoardTop-300x225.jpg)
-](/wp-content/uploads/2014/09/QTP_BoardTop.jpg)[![QTP_BoardComplete](/wp-content/uploads/2014/09/QTP_BoardComplete-300x225.jpg)
-](/wp-content/uploads/2014/09/QTP_BoardComplete.jpg)[![QTP_Schematic](/wp-content/uploads/2014/09/QTP_Schematic-300x227.jpg)
+To make installation easier, I built a custom...whatever they call things that attach to the Pi ("plates"?). It uses a ZVNL110A N-Channel MOSFET to do the level conversion for the sensors. They will actually work at 3.3V, but I wanted to use higher voltage due to the length of the wires (~20'), just to be on the safe side. Other than the MOSFET, the board has the 4.7K resistor for the sensors and 4 3-pin JST connections. I've included a schematic below that shows how all of this is wired up. Note that the JST connectors aren't entirely necessary, but they do make installation/re-configuring/removal easier. You could always hard-wire the sensors to the board.{{< figure src="/wp-content/uploads/2014/09/QTP_BoardBottom.jpg)[![QTP_BoardTop](/wp-content/uploads/2014/09/QTP_BoardTop-300x225.jpg" caption="QTP_BoardBottom" >}}
+](/wp-content/uploads/2014/09/QTP_BoardTop.jpg){{< figure src="/wp-content/uploads/2014/09/QTP_BoardComplete.jpg)[![QTP_Schematic](/wp-content/uploads/2014/09/QTP_Schematic-300x227.jpg" caption="QTP_BoardComplete" >}}
 ](/wp-content/uploads/2014/09/QTP_Schematic.jpg)
 
 
@@ -87,10 +84,8 @@ To extend the reach of the sensors, I used about 20' of telephone wire for each.
 
 
 
-[![QTP_Probe](/wp-content/uploads/2014/09/QTP_Probe-300x225.jpg)
-](/wp-content/uploads/2014/09/QTP_Probe.jpg)[![QTP_Probe_Complete](/wp-content/uploads/2014/09/QTP_Probe_Complete-300x225.jpg)
-](/wp-content/uploads/2014/09/QTP_Probe_Complete.jpg)[![QTP_ProbeConnector](/wp-content/uploads/2014/09/QTP_ProbeConnector-300x225.jpg)
-](/wp-content/uploads/2014/09/QTP_ProbeConnector.jpg)[![QTP_ProbeConnectorComplete](/wp-content/uploads/2014/09/QTP_ProbeConnectorComplete-300x225.jpg)
+{{< figure src="/wp-content/uploads/2014/09/QTP_Probe.jpg)[![QTP_Probe_Complete](/wp-content/uploads/2014/09/QTP_Probe_Complete-300x225.jpg" caption="QTP_Probe" >}}
+](/wp-content/uploads/2014/09/QTP_Probe_Complete.jpg){{< figure src="/wp-content/uploads/2014/09/QTP_ProbeConnector.jpg)[![QTP_ProbeConnectorComplete](/wp-content/uploads/2014/09/QTP_ProbeConnectorComplete-300x225.jpg" caption="QTP_ProbeConnector" >}}
 ](/wp-content/uploads/2014/09/QTP_ProbeConnectorComplete.jpg)
 
 

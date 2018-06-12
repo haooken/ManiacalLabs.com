@@ -229,4 +229,3 @@ And now, for the requisite cat video:
 
 -Adam
 
-{{< load-photoswipe >}}

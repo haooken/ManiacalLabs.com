@@ -14,13 +14,11 @@ For part two of the Dial-A-Song project, I'm going to go through the hookup of t
 
 The first thing to do was remove the short ribbon cable that came on the keypad and replace it with something a little longer so I could more easily hook it up to the Pi. Here's the old ribbon cable:
 
-[![Dial Pad and Tone Generator](/wp-content/uploads/2014/03/IMG_20140309_102644.jpg)
-](/wp-content/uploads/2014/03/IMG_20140309_102644.jpg)
+{{< figure src="/wp-content/uploads/2014/03/IMG_20140309_102644.jpg" caption="Dial Pad and Tone Generator" >}}
 
 And now with the new, more colorful, cable:
 
-[![Keypad Wiring](/wp-content/uploads/2014/03/IMG_20140331_135245.jpg)
-](/wp-content/uploads/2014/03/IMG_20140331_135245.jpg)
+{{< figure src="/wp-content/uploads/2014/03/IMG_20140331_135245.jpg" caption="Keypad Wiring" >}}
 
 On the other end, I attached a 2x5 IDC female header (I didn't have a 2x4, so there's a couple wasted pins). This is what will eventually connect to the Pi interface board I'll create, but for now I mocked up a breakout board (the green perf-board) so I could connect it to a breadboard along with Adafruit's great ["Cobbler" kit](http://learn.adafruit.com/adafruit-pi-cobbler-kit/overview).
 

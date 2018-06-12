@@ -11,8 +11,7 @@ categories:
 
 Just a small update to the site, but hopefully one that will be useful. We have added the ability to easily print and download (PDF format) our product guides. Look for this icon at the top right on the Guides pages for our various products:
 
-[![Click hear on the Guide pages to customize and print (or save to PDF)](/wp-content/uploads/2013/11/PrintAndPDFIcon.jpg)
-](/wp-content/uploads/2013/11/PrintAndPDFIcon.jpg)
+{{< figure src="/wp-content/uploads/2013/11/PrintAndPDFIcon.jpg" caption="Click hear on the Guide pages to customize and print (or save to PDF)" >}}
 
 The plugin allows you to customize the document before it is printed or saved. Say you don't really want the 4 pages of pictures that is the parts list. You can click on that section to remove it from the print job or PDF document, thus saving printer ink and/or PDF file size.
 

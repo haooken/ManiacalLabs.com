@@ -12,8 +12,7 @@ categories:
 - Tutorial
 ---
 
-[![ESP8266](/wp-content/uploads/2015/02/WiFi-Serial-Transceiver-Module-300x225.jpg)
-](/wp-content/uploads/2015/02/WiFi-Serial-Transceiver-Module.jpg)
+{{< figure src="/wp-content/uploads/2015/02/WiFi-Serial-Transceiver-Module.jpg" caption="ESP8266" >}}
 
 You’ve probably heard about [this little module](http://www.adafruit.com/product/2282) by now; a cheap, wifi-enabled bit of wizardry that is all the rage. Using serial communication, you can talk to the device and send commands out to the interwebs. I’m certainly not claiming to be bringing anything new to the table with this post, but I did want to share some of my experiences, and in particular, some of the hang-ups I ran into.
 
@@ -49,13 +48,11 @@ I'm all about the efficient communication of information, so here's a list of ke
 
 Once I felt that I had enough basic knowledge to warrant spending actual money, I placed an order, and a short time later, took delivery of two ESP8266 modules. I knew that they could be reasoned with, provided I spoke their language. In this case, 9600 baud. Also, since I would be using my USB FTDI cable, and since these and others like it are 3.3V devices, a level converter was needed.
 
-[![IMG_20150216_071120 (Large)](/wp-content/uploads/2015/02/IMG_20150216_071120-Large-300x225.jpg)
-](/wp-content/uploads/2015/02/IMG_20150216_071120-Large.jpg)
+{{< figure src="/wp-content/uploads/2015/02/IMG_20150216_071120-Large.jpg" caption="IMG_20150216_071120 (Large)" >}}
 
 For the initial wiring, I referenced [this site](http://www.electrodragon.com/w/Wi07c#Firmware), specifically the pinout and the Firmware section:
 
-[![ESP8266_V091](/wp-content/uploads/2015/02/ESP8266_V091-203x300.png)
-](/wp-content/uploads/2015/02/ESP8266_V091.png)
+{{< figure src="/wp-content/uploads/2015/02/ESP8266_V091.png" caption="ESP8266_V091" >}}
 
 For my setup:
 
@@ -82,8 +79,7 @@ So now that I was able to talk to the device, it was time to update the firmware
 
 At the very bottom of the ElectroDragon site linked above, there’s a ‘Documents’ section with a link to the [Google Drive folder](https://drive.google.com/folderview?id=0B3dUKfqzZnlwRXhBTmlhaTROTmM&usp=sharing) containing the firmware images and the tools needed to flash said firmware. From that top level folder ‘ESP8266’, I went to ‘Firmware’, ‘AT_Bin files’, ‘New-AI-v0.9.5.0 AT Firmware’ and downloaded the ‘AI-v0.9.5.0 AT Firmware.bin’ file. Going back to the top level, from ‘ESP8266’, I went to ‘Tool’ and downloaded the ‘esp8266_flasher_simple.zip’ tool. This is a simple executable where all you do is provide the COM port you’re using and the path to the bin file and the program does the rest, assuming you are able to communicate with the module.
 
-[![ESP8266_FlashTool](/wp-content/uploads/2015/02/ESP8266_FlashTool-300x164.png)
-](/wp-content/uploads/2015/02/ESP8266_FlashTool.png)
+{{< figure src="/wp-content/uploads/2015/02/ESP8266_FlashTool.png" caption="ESP8266_FlashTool" >}}
 
 Note: For this tool, I found, after much wailing and gnashing of teeth, that it requires the module to be set to 115200 baud. Again, I’ll spare you the Woe Tales. But this is how you read and change the baud rate on these devices:
 
@@ -125,8 +121,7 @@ It works! Hooray! And that’s pretty much it for the wifi connection part. The 
 
 Here’s where it gets interesting. One of the reasons I was attracted to the ESP8266 was its low cost. ~$8 US for wifi connectivity is quite attractive. Pair that with a ~$5 Arduino Pro Mini knock-off from eBay and you’ve got the makings of a cheap yet powerful data collection and transmission platform. I happened to have a few said knock-offs. You know, just to see if they were any good. For the purposes of these tests, they will work fine. If you're going to be making something for a permanent installation or if you're making something for someone, I'd recommend using the official ones. Since they are of the 3.3V 8MHz variety, no level shifting was needed and both APM and ESP8266 could be powered off the same 3.3V supply.
 
-[![IMG_20150215_090330 (Large)](/wp-content/uploads/2015/02/IMG_20150215_090330-Large-300x225.jpg)
-](/wp-content/uploads/2015/02/IMG_20150215_090330-Large.jpg)
+{{< figure src="/wp-content/uploads/2015/02/IMG_20150215_090330-Large.jpg" caption="IMG_20150215_090330 (Large)" >}}
 
 For this part, I referenced [this Instructable](http://www.instructables.com/id/Arduino-Wifi-Temperature-Logger/) a bit, but made a number of modifications, mostly in the code. The end result is that every set period of time, the device reads the temperature sensor and sends the value to a data.sparkfun.com stream by formatting a string to send over the SoftwareSerial connection to the ESP8266.
 

@@ -147,4 +147,3 @@ To keep things fully mobile, we controlled the POV script from an SSH session ru
 
 If you like this and want to make your own, check out our Kickstarter for the [AllPixel](https://www.kickstarter.com/projects/1101128588/allpixel-usb-interface-for-all-your-led-needs/)!
 
-{{< load-photoswipe >}}

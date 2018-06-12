@@ -10,8 +10,7 @@ categories:
 - Kickstarter
 ---
 
-[![MainKSThumb](/wp-content/uploads/2014/11/MainKSThumb.png)
-](/wp-content/uploads/2014/11/MainKSThumb.png)
+{{< figure src="/wp-content/uploads/2014/11/MainKSThumb.png" caption="MainKSThumb" >}}
 
 It's been a long, long journey bringing the [AllPixel](/allpixel) to fruition and it is finally coming to the end... But now the _real_ fun begins as the AllPixel finds its way into the hands of LED hackers and hobbyists!
 

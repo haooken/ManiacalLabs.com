@@ -13,8 +13,7 @@ categories:
 
 We are pleased to announce that the AllPixel and PowerTap are now available for purchase on [Tindie](https://www.tindie.com/stores/ManiacalLabs/)!
 
-[![Tindie Logo](https://d2ss6ovg47m0r5.cloudfront.net/images/tindie-logo@2x.png)
-](https://www.tindie.com/stores/ManiacalLabs/)
+{{< figure src="https://www.tindie.com/stores/ManiacalLabs/" caption="Tindie Logo" >}}
 
 All orders through Tindie ship direct from Maniacal Labs HQ in North Carolina, USA.
 

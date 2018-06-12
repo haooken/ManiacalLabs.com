@@ -11,8 +11,7 @@ categories:
 - Projects
 ---
 
-[![SparkCon_Thanks](/wp-content/uploads/2015/09/SparkCon_Thanks-1024x758.jpg)
-](/wp-content/uploads/2015/09/SparkCon_Thanks.jpg)
+{{< figure src="/wp-content/uploads/2015/09/SparkCon_Thanks.jpg" caption="SparkCon_Thanks" >}}
 
 A Huge Thanks to everyone who came out and saw us at GeekSpark this weekend! We had a great time and were thrilled at the response we got from the giant display.
 

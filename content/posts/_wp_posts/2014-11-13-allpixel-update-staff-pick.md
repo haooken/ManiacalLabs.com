@@ -24,11 +24,9 @@ We didn't want to bog down the main page with really technical details about how
 
 At the core, the AllPixel is not much different from devices like the Arduino Leonardo, Arduino Pro Micro, or Teensy 2. In fact, our original prototype used a Pro Micro.
 
-[![IMG_0528-16x9](/wp-content/uploads/2014/11/IMG_0528-16x9-300x168.jpg)
-](/wp-content/uploads/2014/11/IMG_0528-16x9.jpg)
+{{< figure src="/wp-content/uploads/2014/11/IMG_0528-16x9.jpg" caption="IMG_0528-16x9" >}}
 
-[![IMG_0537-Edit-16x9](/wp-content/uploads/2014/11/IMG_0537-Edit-16x9-300x168.jpg)
-](/wp-content/uploads/2014/11/IMG_0537-Edit-16x9.jpg)
+{{< figure src="/wp-content/uploads/2014/11/IMG_0537-Edit-16x9.jpg" caption="IMG_0537-Edit-16x9" >}}
 
 The heart of the AllPixel is an ATMega32u4 which is what allowed us to provide such amazing frame rates, since it is capable of full 12Mbps throughput on the USB Serial connection. It also provides 2.5KB of SRAM, 2K of which is used to buffer the pixel data. Not needing to waste SRAM on the serial buffer was also a huge advantage of using this chip over the venerable FTDI and something without built-in USB support.
 
