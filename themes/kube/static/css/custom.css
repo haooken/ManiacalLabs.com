@@ -36,3 +36,14 @@ a:hover {
     border-color: #f36926;
     color: #f36926;
 }
+
+#posts {
+    text-align: left;
+}
+
+/* #posts img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */

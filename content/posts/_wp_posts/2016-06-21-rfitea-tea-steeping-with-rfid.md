@@ -9,13 +9,11 @@ url: /2016/06/21/rfitea-tea-steeping-with-rfid/
 
 Were I to classify my projects, they would fall into one of two categories: practical and ... well let's just say "creative." This one is a good bit of the later with a splash of the former. I've been wanting to play with RFID tags, and one morning while pouring a cuppa, inspiration struck.
 
-[caption id="attachment_2248" align="aligncenter" width="300"][![RFItea](/wp-content/uploads/2016/06/IMG_20160503_165551-Custom-300x222.jpg)
-](/wp-content/uploads/2016/06/IMG_20160503_165551-Custom.jpg) The RFItea[/caption]
+{{< figure src="/wp-content/uploads/2016/06/IMG_20160503_165551-Custom.jpg" caption="The RFITea" >}}
 
 RFItea is a tea timer that uses a cheap RFID reader (and compatible sticker tags) to ensure a properly steeped cup of tea. A small OLED display shows the name of the tea and the remaining time in seconds, and a piezo buzzer chirps a cheerful notice when time is up. An Arduino Pro Mini runs the show, and the attached USB/Serial module allows for power and for attachment to a computer for RFID tag programming. To start the timer, simply scan the RFID tag stuck to the bottom of the tea container.
 
-[caption id="attachment_2251" align="aligncenter" width="300"][![RFID tag stuck to bag of tea](/wp-content/uploads/2016/06/IMG_20160618_145616-Custom-300x222.jpg)
-](/wp-content/uploads/2016/06/IMG_20160618_145616-Custom.jpg) RFID tag stuck to bag of tea[/caption]
+{{< figure src="/wp-content/uploads/2016/06/IMG_20160618_145616-Custom.jpg" caption="RFID tag stuck to bag of tea" >}}
 
 For the RFID module, I went with a [Mifare RC522](http://www.amazon.com/SunFounder-Mifare-Antenna-Proximity-Arduino/dp/B00E0ODLWQ) module. It runs at 3.3V and communicates with the microcontroller via the SPI bus. This module (and others like it) are supported by [this awesome library](https://github.com/miguelbalboa/rfid) by Miguel Balboa. This well-documented library and the examples made getting the RFID module up and running a snap. Getting the hardware to function how I wanted it was a good programming exercise. I definitely had to do some Googling to brush up on my bit/byte-wise operations and manipulation of data types.
 
@@ -31,8 +29,7 @@ I knew that I wanted the form factor of this project to be about this size, and 
 
 I wanted to make something about the size of the SparkFun box, and it turned out I had some scrap pieces of pine that could be made into a box-like shape with enough room inside for the electronics. A slot for the FTDI breakout board was cut out in�the back piece using a few drill holes and cleaned up with a chisel. After that, an application of wood glue and clamping gave me the 4-sided object I wanted.
 
-[caption id="attachment_2241" align="aligncenter" width="300"][![Clamping the sides](/wp-content/uploads/2016/06/IMG_20160430_122055-Custom-300x222.jpg)
-](/wp-content/uploads/2016/06/IMG_20160430_122055-Custom.jpg) Clamping the sides[/caption]
+{{< figure src="/wp-content/uploads/2016/06/IMG_20160430_122055-Custom.jpg" caption="Clamping the sides" >}}
 
 The top of this enclosure would be the most visible part, so I wanted to do something a bit more creative than a plain wood top. I had some scrap walnut and poplar, and with some more of the pine, I cut a few 1/8"-thick strips. Luckily, I ended up with enough for a nice symmetrical arrangement. After trimming the pieces to about the correct length, more wood glue and clamping were applied. Once dried, the window for the OLED display was carefully cut out with a drill and fretsaw, and the strips on top were cut (mostly) flush.
 
@@ -44,13 +41,7 @@ Of course, I am no woodworking savant, and there were some, shall we say, rough 
 
 After securing the electronics in place (and verifying everything still worked), the RFItea now occupies a permanent spot on my counter. I'm really happy with how this project turned out. And in working with the RFID reader, I got to learn something new which I can use in future projects. Again, code is available on [GitHub](https://github.com/ManiacalLabs/RFItea), and please let me know if you have any questions. But now, I desire a good cup of tea. I will Make It So.
 
-
-
-[![IMG_20160605_103401_crop (Custom)](/wp-content/uploads/2016/06/IMG_20160605_103401_crop-Custom.jpg)
-](/wp-content/uploads/2016/06/IMG_20160605_103401_crop-Custom.jpg)
-
-
-
+{{< figure src="/wp-content/uploads/2016/06/IMG_20160605_103401_crop-Custom.jpg" >}}
 
 
 -Dan

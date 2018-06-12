@@ -15,8 +15,7 @@ I recently got a new Nexus 5 phone and Nexus 7 tablet, both of which have the ab
 
 Queue [123D Design](http://www.123dapp.com/design). Not being a professional at these things, I can't really afford the fancy tools for such things, but I've found that 123D Design does a good job (though keyboard shortcuts would be welcome). A lot of caliper use, 2D sketching, and extruding later I wound up with this:
 
-[caption id="attachment_851" align="aligncenter" width="952"][![Nexus Wireless Charger Stand Design](/wp-content/uploads/2014/02/123DCharger.png)
-](/wp-content/uploads/2014/02/123DCharger.png) Nexus Wireless Charger Stand Design[/caption]
+{{< figure src="/wp-content/uploads/2014/02/123DCharger.png" caption="Nexus Wireless Charger Stand Design" >}}
 
 Not bad if I say so myself :) But, first, a test print to check the sizing!
 
