@@ -6,8 +6,7 @@ title: AllPixelMini Design Files Now on GitHub
 type: post
 url: /2017/06/22/allpixelmini-design-files-now-on-github/
 ---
-
-![](/wp-content/uploads/2017/06/github-logo-1.png)
+{{< figure src="/wp-content/uploads/2017/06/github-logo-1.png" caption="" >}}
 
 
 The recent questioning of if Arduino was [fully complying with open source standards](http://hackaday.com/2017/06/19/the-arduino-foundation-whats-up/) reminded us of something... in all the excitement of releasing the new and improved [AllPixelMini](/AllPixel) we forgot to release the new designs! Oops.

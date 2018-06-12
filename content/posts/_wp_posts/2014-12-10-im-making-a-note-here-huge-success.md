@@ -9,8 +9,7 @@ categories:
 - Kickstarter
 - Products
 ---
-
-![KermitFlail](/wp-content/uploads/2014/12/tumblr_inline_n6wr5jzuqb1s9nclc1.gif)
+{{< figure src="/wp-content/uploads/2014/12/tumblr_inline_n6wr5jzuqb1s9nclc1.gif" caption="KermitFlail" >}}
 
 
 Thank you SO MUCH to all of our amazing backers! We couldn't be happier with how well the [AllPixel campaign](https://www.kickstarter.com/projects/1101128588/allpixel-usb-interface-for-all-your-led-needs/) went!

@@ -8,8 +8,7 @@ url: /2017/11/01/introducing-the-super-7-seg/
 ---
 
 We are pleased to announce availability of our latest kit, the Super 7 Seg display!
-
-![](https://github.com/ManiacalLabs/Super7Seg/raw/master/doc/img/Super7Test.gif)
+{{< figure src="https://github.com/ManiacalLabs/Super7Seg/raw/master/doc/img/Super7Test.gif" caption="" >}}
 
 
 The **Super 7 Seg** kit takes using a 7 Segment display to the extreme! It started as an exercise in "how many 7 segment displays can I drive with a single ATMega328p" and we are quite proud of the result.

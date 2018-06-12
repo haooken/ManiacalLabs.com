@@ -6,8 +6,7 @@ title: AllPixel Now Only $20!
 type: post
 url: /2016/08/03/allpixel-now-only-20/
 ---
-
-![AllPixel_1](/wp-content/uploads/2015/07/AllPixel_1.jpg)
+{{< figure src="/wp-content/uploads/2015/07/AllPixel_1.jpg" caption="AllPixel_1" >}}
 
 
 Good news! We've decided to drop the price on the [AllPixel](/AllPixel) LED Controller board to only $20!

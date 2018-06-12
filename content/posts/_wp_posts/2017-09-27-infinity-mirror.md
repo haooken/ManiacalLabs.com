@@ -12,11 +12,9 @@ When it comes to LED related builds there's one right of passage that we somehow
 {{< youtube z1lSGxYMoW4 >}}
 
 We have a ridiculously long backlog of things we'd like to build and very often they stay on the list until one day when an idea strikes or a perfect core component presents itself. In this case it was finding a good deal on 144 pixel/m APA102 LED strips that were initially intended for use with another project. The eureka moment here was when the realization was made that a ring of 120 pixels would make for a fantastic clock (see end of video above) because, well, we try to make a clock out of everything. Why is 120 pixels perfect? Because 120 is divisible by 60, 24, and 12 evenly, making it absolutely ideal for a clock. And what better way to show off our latest product, the [PiPixel](/PiPixel)?!
+{{< figure src="/wp-content/uploads/2017/09/Mirror.jpg" caption="" >}}
 
-![](/wp-content/uploads/2017/09/Mirror.jpg)
-
-
-![](/wp-content/uploads/2017/09/PiPixel-1.jpg)
+{{< figure src="/wp-content/uploads/2017/09/PiPixel-1.jpg" caption="" >}}
 
 
 <!-- more -->

@@ -33,7 +33,7 @@ Since I wanted to keep this as a functional clock, I didn't involve the two butt
 
 I took this opportunity to also release to the published firmware a new clock face created by our good old friend, Josh, of the [Proton Pack display](/2013/09/19/who-ya-gonna-call/) fame. He thought it would be cool to have a clock face that breaks the 32 LEDs into subsections that show the binary value for seconds, minutes, hours, day, month and year. Amazingly, 32 was the exact number needed. This makes reading the time a little easier to begin with and even easier when coupled with this printable guide he created.
 
-![/misc/Binary_Clock_Key.png]
+{{< figure src="/misc/Binary_Clock_Key.png" >}}
 
 Just print it off, and adhere it to the back of the clock.
 

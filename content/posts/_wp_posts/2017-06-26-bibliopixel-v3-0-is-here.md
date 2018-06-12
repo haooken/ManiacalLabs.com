@@ -6,8 +6,7 @@ title: BiblioPixel v3.0 Is Here!
 type: post
 url: /2017/06/26/bibliopixel-v3-0-is-here/
 ---
-
-![](/wp-content/uploads/2017/06/BiblioPixel-1.png)
+{{< figure src="/wp-content/uploads/2017/06/BiblioPixel-1.png" caption="" >}}
 
 
 It's amazing to think that nearly 5 years ago, before Maniacal Labs even, I released [RPi-LPD8806](https://github.com/adammhaile/RPi-LPD8806), which would eventually become [BiblioPixel](/BiblioPixel), our pure Python pixel animation framework. Back then it was only for the Raspberry Pi and only for LPD8806 LEDs... and I barely knew Python at the time!

@@ -11,6 +11,5 @@ The new AllPixelMini has arrived and now in stock on Tindie!
 
 Get yours now!
 [https://www.tindie.com/products/ManiacalLabs/allpixelmini-universal-led-controller/](https://www.tindie.com/products/ManiacalLabs/allpixelmini-universal-led-controller/)
-
-![](/wp-content/uploads/2017/05/AllPixelMiniShipment.jpg)
+{{< figure src="/wp-content/uploads/2017/05/AllPixelMiniShipment.jpg" caption="" >}}
 

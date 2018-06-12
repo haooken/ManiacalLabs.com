@@ -3,7 +3,8 @@ import os
 import glob
 import re
 
-re_search = '\[\!\[(.*)\]\((.*\))\n\]\((.*\))'
+# re_search = '\[\!\[(.*)\]\((.*\))\n\]\((.*\))'
+re_search = '\n\!\[(.*)\]\((.*\))'
 
 
 if __name__ == '__main__':
@@ -19,10 +20,11 @@ if __name__ == '__main__':
             replace = {}
             for m in matches:
                 cap = m[0]
-                thumb = m[1][:-1]
-                img = m[2][:-1]
-                og = '[![{}]({})\n]({})'.format(cap, thumb, img)
+                img = m[1][:-1]
+                og = '\n![{}]({})'.format(cap, img)
                 rep = '{{< figure src="' + img + '" caption="' + cap + '" >}}'
+                print(og)
+                print(rep)
                 replace[og] = rep
 
             for k, v in replace.items():

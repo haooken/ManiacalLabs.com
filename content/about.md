@@ -17,8 +17,7 @@ But this is just the beginning. We have a bunch of ideas in queue, and while we 
 ## Adam Haile
 
 
-
-![Adam Haile](/wp-content/uploads/2013/07/Adam-Haile-215x300.jpg)
+{{< figure src="/wp-content/uploads/2013/07/Adam-Haile-215x300.jpg" caption="Adam Haile" >}}
 
 
 Loves: Mountains, State Machines, Administering Turing Tests
@@ -34,9 +33,7 @@ Absolute simplicity is Adam's ultimate goal and he enjoys the challenge of pulli
 ## Dan Ternes
 
 
-
-![Dan Ternes](/wp-content/uploads/2013/07/Dan-Ternes-220x300.jpg)
-
+{{< figure src="/wp-content/uploads/2013/07/Dan-Ternes-220x300.jpg" caption="Dan Ternes" >}}
 
 Loves: Long walks on the beach, Ohm's Law, The Smell of Solder in the Morning
 

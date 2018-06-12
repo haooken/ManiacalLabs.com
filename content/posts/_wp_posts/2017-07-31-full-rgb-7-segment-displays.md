@@ -8,8 +8,7 @@ url: /2017/07/31/full-rgb-7-segment-displays/
 ---
 
 Friend of Maniacal Labs and contributor to BiblioPixel, [Maksim](https://maxoffsky.com/), has created an awesome full RGB 7-segment display module based on the WS2812B (NeoPixel) LED.
-
-![](/wp-content/uploads/2017/07/neosegment-14-969x650.jpg)
+{{< figure src="/wp-content/uploads/2017/07/neosegment-14-969x650.jpg" caption="" >}}
 
 
 These awesome little modules simply snap together and provide full RGB control over each segment of each digit, allowing for some pretty awesome effects. Plus, they are certainly the easiest 7-segment modules to interface that we've even seen. He's running a crowdfunding campaign right now over at [CrowdSupply](https://www.crowdsupply.com/maksmakes/neosegment).

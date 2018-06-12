@@ -12,8 +12,7 @@ categories:
 - kicad
 - Making Of
 ---
-
-![PCBtoCase](/wp-content/uploads/2015/05/PCBtoCase-1024x532.png)
+{{< figure src="/wp-content/uploads/2015/05/PCBtoCase-1024x532.png" caption="PCBtoCase" >}}
 
 
 As the [AllPixel](/AllPixel) Kickstarter neared an end, we wanted to make design files for a [case](/2015/03/16/allpixel-case-and-production-begins/) available for anyone wanting to 3D print their own. However, neither of us are particularly well versed in 3D design, and the usual method of breaking out the calipers to laboriously measure all of the final board dimensions seemed silly when all the dimension and placement data was right there in KiCad. There had to be a way to get the data from KiCad into our usual design tool, 123D Design. Yes, there are more powerful tools out there, but 123D is easy to use and free, so it's been enough for now.

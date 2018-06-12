@@ -112,8 +112,7 @@ We determined all of the reward tier pricing based on the cost breakdown spreads
 
 
 For the record, we wish we had a giant red button to press, initiating go-live of the campaign.
-
-![BigRedButton](/wp-content/uploads/2015/08/BigRedButton-1024x951.jpg)
+{{< figure src="/wp-content/uploads/2015/08/BigRedButton-1024x951.jpg" caption="BigRedButton" >}}
 
 
 This will happen next time :)
@@ -180,11 +179,9 @@ Now is also when your original cost estimates will be tested. If you did not pla
 
 
 Our original plan was to kit, pack, and ship everything ourselves. That was also when we thought we would be lucky to get 100 backers. But, instead, we shipped 428 AllPixels, 636 PowerTaps, and 67 rolls of LEDs. Certainly _not_ something that the two of use would want to handle all ourselves. We would have required 141 customs forms just for all the non USA shipping!
+{{< figure src="/wp-content/uploads/2015/07/Backers-1024x576.png" caption="Backers" >}}
 
-![Backers](/wp-content/uploads/2015/07/Backers-1024x576.png)
-
-
-![BackerMap](/wp-content/uploads/2015/07/BackerMap-1024x575.png)
+{{< figure src="/wp-content/uploads/2015/07/BackerMap-1024x575.png" caption="BackerMap" >}}
 
 
 Fortunately, Seeed came to our rescue again by offering to kit, pack, and ship _everything_. Originally we thought this would be cost prohibitive, but between their better buying power for packing materials and shipping and saving our own time, the $2,643.55 spent on packing and shipping was _well_ worth every penny. As you may note, from the estimates chart above, we _had_ already accounted for packing and shipping costs. Seeed's prices were a little higher than we originally budgeted for, but that's why you keep that 10% fudge factor! Also note, that we later calculated that it would have cost nearly $700 just to ship all the final boards to the USA for us to pack and ship ourselves!

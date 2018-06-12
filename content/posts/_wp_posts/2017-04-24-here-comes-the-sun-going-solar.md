@@ -48,8 +48,7 @@ There are other things you may need to figure out for your situation, but I see 
 
 
 Fortunately, if you are in the United States this is made pretty easy with a quick visit to Google's [Project Sunroof](https://www.google.com/get/sunroof#p=0). Pop in your home address and, with any luck, yours will be one of the significant portion of the united states already analyzed by google.
-
-![](/wp-content/uploads/2017/04/ProjectSunroof.png)
+{{< figure src="/wp-content/uploads/2017/04/ProjectSunroof.png" caption="" >}}
 
 
 As you can see above, Google's tools shows a "light map" of my roof, estimated hours of peak sun annually, usable roof size, and recommended installation size. There's also a ton more information provided about local installers and a more exact breakdown of the estimated cost and savings of the system. It ended up being quite close to my final install and costs. Numbers on savings remain to be seen, of course.
@@ -146,8 +145,7 @@ Now, this is the _pre-tax-credit_ cost to me and includes all labor, permitting 
 But, I said there were tax credits! Right, right... That's easy: $27,870 - %30 = **$19,509** final cost once we receive the credit.
 
 You already, of course, know that unlike most home improvements these panels will be actively creating value in the form of power but solar panels can also be a _huge_ boost to your home's value. Note that I'm talking about _[equity](https://en.wikipedia.org/wiki/Home_equity)_, the value for which you could reasonably sell the home. For comparison, check out the chart below of project [cost vs. value](http://www.remodeling.hw.net/cost-vs-value/2017/) added to your home:
-
-![](/wp-content/uploads/2017/04/Equity.png)
+{{< figure src="/wp-content/uploads/2017/04/Equity.png" caption="" >}}
 
 
 Notice something there? There is only _one_ project list that is worth more than it costs and it's even only one of three that will then actually save you money on energy costs! Everything else has a lower perceived value to someone buying the home than what it actually costs you. But what about solar?

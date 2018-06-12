@@ -14,8 +14,7 @@ categories:
 ---
 
 Over two years ago, I bought this [awesome display panel](https://www.adafruit.com/products/1484):
-
-![1484-02](/wp-content/uploads/2016/06/1484-02.jpg)
+{{< figure src="/wp-content/uploads/2016/06/1484-02.jpg" caption="1484-02" >}}
 
 
 It's a 7.5" square, 32x32 resolution, 6mm LED spacing, panel that would normally be used for digital signage. Though it is a "dumb" display that requires CPU intensive multiplexing (it's supposed to be driven by an FPGA or ASIC), with the right tools it can be way easier to use than building, ahem, [other](/colossus) [types](/WyoManiacalDisplay) of displays ;) I have covered this exact panel a [few](/2015/01/23/adafruit-matrix-hat-support-for-bibliopixel/) [other](/2015/02/14/adafruit-matrix-hat-raspberry-pi-2-speed-test/) [times](/2015/06/01/bibliopixel-controlling-a-jumbotron/), but after a couple years of sitting in my LED storage it was _time_ to finally make it something awesome.
@@ -33,16 +32,13 @@ To jump straight to the good stuff, check out the build video below, or continue
 
 
 The core of this particular display is, in a way, the case. Ever LED display I've made up to this point has used digital LED strips or strings, which are great but also not meant for particularly high pixel density. This makes even low resolution displays [pretty large](/colossus), and as such, I've usually resorted to constructing the structure of the displays out of wood. But at only 7.5" square, with pixels only 6mm apart, it was just the right size to design a 3D printed case that would be printable within the build volume of our MakerBot Replicator 2. Almost, anyways... each half had to be separated into two parts that slot together and are secured with screws, so this made a great excuse to also learn how to design multi piece printed parts.
-
-![CaseFront](/wp-content/uploads/2016/06/CaseFront.png)
+{{< figure src="/wp-content/uploads/2016/06/CaseFront.png" caption="CaseFront" >}}
 
 
 The front of the case is, as mentioned, printed in to halves which are identical and fit together when rotated 180 degrees to one another. There is both an opening and mount screw holes for the panel itself, as well as a slot into which the 8" square frosted acrylic slides. It's actually designed such that the only way to get the acrylic in is with the case front in two halves, so the design limitation worked out nicely in this case as it holds the acrylic in with nothing more than the slot itself.
+{{< figure src="/wp-content/uploads/2016/06/CaseBackBottom.png" caption="CaseBackBottom" >}}
 
-![CaseBackBottom](/wp-content/uploads/2016/06/CaseBackBottom.png)
-
-
-![CaseBackTop](/wp-content/uploads/2016/06/CaseBackTop.png)
+{{< figure src="/wp-content/uploads/2016/06/CaseBackTop.png" caption="CaseBackTop" >}}
 
 
 The back of the case is _not_ in identical halves as the bottom holds not only all of the connection ports but the Raspberry Pi 3 that drives the whole thing. The top, however, is entirely plain and merely exists to round out the back and cover everything. But like the front the back pieces have the same rotational symmetry that allows them to fit together.
