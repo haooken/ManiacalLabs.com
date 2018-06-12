@@ -51,3 +51,7 @@ a:hover {
 li h2 {
     text-align: center;
 }
+
+#posts li {
+    margin-bottom: 1em;
+}

@@ -18,7 +18,7 @@ Fortunately, Adafruit already had a [library](https://github.com/adafruit/rpi-rg
 
 I next had to figure out how to modify the [C python extension](https://github.com/adafruit/rpi-rgb-led-matrix/blob/master/rgbmatrix.cc)... something I've never done. As good a time as any to learn! After a bit of documentation reading, I was able to knock out a new function, [SetBuffer()](https://github.com/adafruit/rpi-rgb-led-matrix/blob/master/rgbmatrix.cc#L108), that takes the BiblioPixel data buffer and dumps it to the display's framebuffer. Internally it's still using SetPixel, but it's doing so at the C level and therefore much faster. All this and the BiblioPixel driver is insanely simple, not counting comments only 6 lines:
 
-[code lang=python]
+{{< highlight python >}}
 from rgbmatrix import Adafruit_RGBmatrix
 from bibliopixel.drivers.driver_base import *
 
@@ -33,7 +33,7 @@ class DriverAdaMatrix(DriverBase):
     #Push new data to strand
     def update(self, data):
         self._matrix.SetBuffer(data)
-[/code]
+{{< / highlight >}}
 
 Since this driver is so dependent upon the Adafruit library, the Pi, and compiling C code on the Pi, I opted to not include it directly in the main BiblioPixel source. But, through the wonders of open source, it's already merged into and is [available](https://github.com/adafruit/rpi-rgb-led-matrix/blob/master/ada-matrix.py) directly in their library!
 

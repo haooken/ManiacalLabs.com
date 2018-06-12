@@ -16,11 +16,11 @@ But another great use-case for choosing something other than RGB strips is if wh
 
 In this demo, I've taken two different white LED strips, 3000K (warm white) and 6000K (cool white), and used a little math to blend the two together to maintain roughly the same total light output while fading between 3000K and 6000K. The brightness and color temperature values are stored internally as unsigned bytes (0-255) and then the following calculation is used to determine the output to send to the LongPixel:
 
-[code]
+```
 red = ((255 - _temp) * _brightness) >> 8
 blue = (_temp * _brightness) >> 8
 color = (red, 0, blue)
-[/code]
+```
 
 In this case, the 3000K strip is connected to the red output and 6000K is connected to blue. The above allows fading between the two temperatures while generally maintaining the same overall brightness. For those confused by the ">> 8" code, this is just a fancy way of scaling two 8-bit values by each other. Multiply together and then right bit shift 8 places. This is _much_ faster on a microcontroller than using larger values.
 

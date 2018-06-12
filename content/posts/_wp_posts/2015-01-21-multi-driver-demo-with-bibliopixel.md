@@ -24,7 +24,7 @@ All the code from the video is below. More details are on the [BiblioPixel Wiki]
 
 
 
-[code lang=python]
+{{< highlight py >}}
 #Load driver for your hardware, visualizer just for example
 import time
 import bibliopixel.log as log
@@ -75,4 +75,4 @@ led.update()
 #since updates are threaded, give them time to finish before exiting the app
 time.sleep(2)
 
-[/code]
+{{< / highlight >}}

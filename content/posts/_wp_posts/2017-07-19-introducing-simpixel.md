@@ -25,10 +25,10 @@ And because SimPixel is web-based there's not even anything to install. In the v
 
 Because of SimPixel, you can easily see BiblioPixel in action with absolutely zero code.
 
-[code lang=text]
+```
 pip install bibliopixel
 bibliopixel demo
-[/code]
+```
 
 That's it! Install BiblioPixel and then run the demo! http://SimPixel.io will automatically launch and connect to the BiblioPixel animations that are now running. SimPixel is also fully supported in BiblioPixel's new "[Projects](https://github.com/ManiacalLabs/BiblioPixel/wiki/Projects)" feature, meaning you can create your own setup with nothing but some basic configuration.
 

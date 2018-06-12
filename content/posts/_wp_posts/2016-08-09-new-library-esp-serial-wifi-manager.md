@@ -24,7 +24,7 @@ There are some [examples](https://github.com/tzapu/WiFiManager) of ESP8266 WiFi 
 
 ESPSerialWiFiManager provides an easy to use interactive serial console for all your WiFi network management needs. It supports open, WEP, WPA, and even WPS connections as well as can commit the configuration to EEPROM to be automatically connected on reboot. And best of all, it's super simple to integrate into your own code. Check out the console example below to get an idea of what you can do:
 
-[code]
+```
 ESP Serial WiFi Manager
 =======================
 
@@ -76,6 +76,6 @@ Gateway: 10.0.1.1
 DNS 1: 10.0.1.1
 DNS 2: 0.0.0.0
 =============================
-[/code]
+```
 
 You can find more details including installation, usage, and examples on the [ESPSerialWiFiManager](https://github.com/ManiacalLabs/ESPSerialWiFiManager) GitHub repo.

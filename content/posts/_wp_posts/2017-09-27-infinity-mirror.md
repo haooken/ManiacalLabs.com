@@ -35,8 +35,8 @@ One other item that the above CAD design includes is a stand for the mirror. It 
 
 This of course means that driving animations on the mirror is super easy using our latest and greatest [BiblioPixel](/BiblioPixel) features. The quickest way being to run:
 
-[code lang=text]
+```
 bibliopixel run https://github.com/adammhaile/BiblioPixelProjects/blob/master/SparkCon2017/Infinity.json
-[/code]
+```
 
 If you look directly at that JSON file you will see that some manipulation of the ring layout had to be done in the `layout` section. We used `rotation` to rotate the orientation of the ring 180 degrees because the ring starts on the bottom, so that the wires could be hidden in the stand. Also, the `reverse_angle` option was used because the LEDs were installed into the ring frame counter-clockwise instead of clockwise. This was merely an oversight during construction :P

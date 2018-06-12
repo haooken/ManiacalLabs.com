@@ -37,7 +37,7 @@ My last, and smallest, gripe with the display is that it's outer ring has only 4
 
 Even though it is an awesome display, it's no use unless you can control it in a way that won't cause hair loss in the process. [BiblioPixel](/BiblioPixel) already has the LEDStrip and LEDMatrix classes for controlling strips and matrices, respectively. LEDMatrix is right out because there's no way a standard (x,y) coordinate system would make sense. The cop-out way would be to use LEDStrip and then program all the animations in a very hard-coded, manual way such that it looks like everything is being done in a circular fashion. This is what I originally did, by implementing the [Bloom](https://github.com/ManiacalLabs/BiblioPixel/blob/master/matrix_animations.py#L40) animation, but with LEDStrip instead. This was done by mapping out what LED indices were in each ring, and then filling each ring, based on those indices, with a slowing changing gradient. But as I was writing this code, I looked at the mapping I generated and had an epiphany:
 
-[code lang=python]
+```
 rings = [
     [254,254],  #0 - Center point
     [248,253],  #1
@@ -50,7 +50,7 @@ rings = [
     [48,91],    #8
     [0,47],     #9 - Outer-most ring
 ]
-[/code]
+```
 
 If I knew the start and end indices of the pixels in each ring and assumed that all rings have the pixels evenly arranged in the ring, I could easily calculate the degrees between each pixel for that ring with a simple formula: `ringDegrees = 360.0/(endIndex - startIndex + 1)`
 

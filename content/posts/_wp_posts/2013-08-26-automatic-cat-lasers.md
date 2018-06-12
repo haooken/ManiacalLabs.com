@@ -78,7 +78,7 @@ So, instead, I cheated and used the [Watchdog Timer](http://en.wikipedia.org/wik
 
 Expand to read through the firmware code. [Download the full code](https://github.com/ManiacalLabs/FroliCatBoltHack) to get the included notes.h header which contains values for playing the music.
 
-[cpp collapse="true"]
+{{< highlight cpp >}}
 //arduino-tiny "ATTiny45 @ 1 MHz"
 
 #include <avr/wdt.h>        // Supplied Watch Dog Timer Macros
@@ -184,7 +184,7 @@ ISR(WDT_vect)
 
   sleep_enable();           // Enable Sleep Mode
 }
-[/cpp]
+{{< / highlight >}}
 
 
 ## Setup and Testing

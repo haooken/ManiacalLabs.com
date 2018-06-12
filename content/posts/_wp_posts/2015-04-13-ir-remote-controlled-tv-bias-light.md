@@ -34,12 +34,12 @@ The hookup is pretty simple. First, follow the [TSOP38238 datasheep](http://www.
 
 What I did with the pin hookup here is cheating a little. I didn't want to require any fancy wiring, so I just use Arduino pin 2 as the input pin, but then set pin 3 as OUTPUT/LOW (Ground) and pin 4 as OUTPUT/HIGH (VCC). A nice little trick when you have extra pins and want to power something lower powered without having to connect to proper Ground and VCC. You just have to add the following code as the first thing in setup():
 
-[code lang=c]
+```
     pinMode(3, OUTPUT);
     pinMode(4, OUTPUT);
     digitalWrite(3, LOW);
     digitalWrite(4, HIGH);
-[/code]
+```
 
 Next, hook up the LED strip connection. I used a 4 pin JST connector (since that's what is on the LED strip) and wired the Data line to pin 11 (MOSI) and Clock line to pin 13 (CLK). Then, VCC and Ground were connected to the VCC and Ground Arduino pins, as were two more wires that I connected to one of the handy screw terminal barrel jack adapters I keep on hand. Connecting the power this way allows powering both the LED strip and the Arduino off the same 5V power adapter.
 
@@ -53,15 +53,15 @@ For the software, I used a great IR library called [IRLib](https://github.com/cy
   * Change the following line to reflect the total number of LEDs your strip has.
 
 
-[code lang=c]
+```
 #define numLEDs 103
-[/code]
+```
 
 
   * Every remote is different and uses different IR codes. So you will have to program the codes of the remote you want to use. The code outputs the code of every remote signal that it receives to the serial console. Just set the console to 115200 baud and then press the buttons you would like to use for each function and past those values into these lines:
 
 
-[code lang=c]
+```
 #define BRIGHT_UP  0xE0E006F9      //Remote D-Up
 #define BRIGHT_DOWN    0xE0E08679  //Remote D-Down
 #define COLOR_BK   0xE0E0A659  //Remote D-Left
@@ -70,7 +70,7 @@ For the software, I used a great IR library called [IRLib](https://github.com/cy
 #define SAVE       0xE0E058A7  //Remote Menu
 #define POWER      0xE0E016E9  //Remote Enter/OK
 #define RAINBOW        0xE0E024DB  //Remote Sleep
-[/code]
+```
 
 I used a remote from an unused device so that the remote codes would not conflict with anything. Even though I will program these codes into my Logitech universal remote, it's unfortunate that the only way to do this is from another remote and not by directly entering a remote code. So, I cannot just enter any arbitrary code that I want. But it probably won't be too hard for you to find an old remote lying around. Though, note that some may not work as it has to be a remote that uses a 38kH carrier signal supported by the TSOP38238. Most modern remotes use this frequency, but not all. So if nothing is output over the serial connection, just try a different remote.
 
