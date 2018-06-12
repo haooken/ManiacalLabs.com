@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-07-07 13:01:37+00:00
 draft: false
 title: AllPixel Now Available on Tindie

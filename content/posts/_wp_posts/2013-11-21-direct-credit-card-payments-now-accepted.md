@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2013-11-21 19:33:27+00:00
 draft: false
 title: Direct Credit Card Payments Now Accepted!

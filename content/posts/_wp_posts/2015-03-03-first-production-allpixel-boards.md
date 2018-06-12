@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-03-03 22:28:39+00:00
 draft: false
 title: First Production AllPixel Boards!

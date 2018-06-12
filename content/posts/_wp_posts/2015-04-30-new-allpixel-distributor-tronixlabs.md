@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-04-30 11:40:39+00:00
 draft: false
 title: New AllPixel Distributor! TronixLabs

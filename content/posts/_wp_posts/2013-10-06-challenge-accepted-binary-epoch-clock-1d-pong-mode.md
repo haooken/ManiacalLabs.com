@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2013-10-06 19:28:26+00:00
 draft: false
 title: Challenge Accepted! Binary Epoch Clock 1D Pong Mode

@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2014-03-05 01:10:25+00:00
 draft: false
 title: 3D Printing Services Now Offered!

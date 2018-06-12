@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2013-11-17 04:24:42+00:00
 draft: false
 title: PrismaChron on 11/16/13 Adafruit Show and Tell

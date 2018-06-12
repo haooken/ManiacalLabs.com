@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2014-11-18 13:00:42+00:00
 draft: false
 title: AllPixel Week 1 Update

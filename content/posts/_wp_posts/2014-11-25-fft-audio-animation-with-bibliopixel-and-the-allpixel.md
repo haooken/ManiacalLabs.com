@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2014-11-25 13:00:15+00:00
 draft: false
 title: FFT Audio Animation with BiblioPixel and the AllPixel

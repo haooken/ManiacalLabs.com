@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2014-11-13 04:37:00+00:00
 draft: false
 title: AllPixel Update - Staff Pick!

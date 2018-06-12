@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-01-18 16:11:46+00:00
 draft: false
 title: Exciting Updates!

@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2013-11-14 14:46:11+00:00
 draft: false
 title: Naming the PrismaChron

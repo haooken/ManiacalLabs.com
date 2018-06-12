@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-08-10 13:00:13+00:00
 draft: false
 title: AllPixel Kickstarter Retrospective

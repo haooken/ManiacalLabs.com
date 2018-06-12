@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-05-04 15:36:30+00:00
 draft: false
 title: BiblioPixel v1.2 is Here!
@@ -14,7 +14,7 @@ Check out the details below, but if you want to jump right to it and get the lat
 
 
 
-  * If you installed originally with pip, run this command: 
+  * If you installed originally with pip, run this command:
 `sudo pip install bibliopixel --upgrade`
   * If you prefer to install manually, grab the [v1.2 zip file](https://github.com/ManiacalLabs/BiblioPixel/archive/v1.2.1.zip), unzip it to a local directory and run:
 ` sudo python setup.py install`

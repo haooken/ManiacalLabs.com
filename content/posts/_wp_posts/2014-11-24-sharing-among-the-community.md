@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2014-11-24 13:00:43+00:00
 draft: false
 title: Sharing Among the Community

@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2013-09-01 04:10:36+00:00
 draft: false
 title: Binary Epoch Clock Kit September Sale!

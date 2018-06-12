@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-01-21 14:00:40+00:00
 draft: false
 title: Multi-Driver Demo with BiblioPixel

@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2013-10-22 03:32:29+00:00
 draft: false
 title: 'Introducing: EpochPOV'
@@ -31,32 +31,32 @@ You can change the displayed image by generating a new Image.h file with the inc
 Usage is as follows:
 
 
-    
-    
+
+
     usage: EpochPOVGen.py [-h] [--delay DELAY] [--flip_v] [--flip_h] [--invert] input_img output_header
-    
+
     positional arguments:
       input_img      BMP image to process. Must be 32 pixels high.
       output_header  File to output C image data to.
-    
+
     optional arguments:
       -h, --help     show this help message and exit
       --delay DELAY  Time (ms) between each column refresh.
       --flip_v       Flip image vertically.
       --flip_h       Flip image horizontally.
       --invert       Invert image black/white values (negative)
-    
+
 
 
 
 Typical usage would look like this:
 
 
-    
-    
+
+
     python EpochPOVGen.py mylogo.bmp Image.h
     EpochPOVGen.exe mylogo.bmp Image.h
-    
+
 
 
 

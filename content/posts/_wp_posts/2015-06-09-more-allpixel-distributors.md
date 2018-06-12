@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-06-09 19:01:23+00:00
 draft: false
 title: More AllPixel Distributors

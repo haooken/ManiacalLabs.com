@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-02-14 14:38:17+00:00
 draft: false
 title: Adafruit Matrix Hat Raspberry Pi 2 Speed Test

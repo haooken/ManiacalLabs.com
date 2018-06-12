@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2014-12-10 01:50:59+00:00
 draft: false
 title: I'm Making a Note Here... HUGE SUCCESS!!!

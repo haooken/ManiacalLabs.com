@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-06-22 18:23:57+00:00
 draft: false
 title: 'From the Forum: Gazebo Lighting Prototype'

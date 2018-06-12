@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2013-08-23 12:13:15+00:00
 draft: false
 title: Last Day for Free Shipping!

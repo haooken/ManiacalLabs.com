@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2015-03-27 22:19:11+00:00
 draft: false
 title: AllPixel Soon Available to Public

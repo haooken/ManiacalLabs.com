@@ -1,5 +1,5 @@
 ---
-author: youshallnotpass
+author: maniacal labs
 date: 2014-03-19 18:14:41+00:00
 draft: false
 title: These Prices Are Insane! Binary Epoch Clock only $19.99!
