@@ -52,6 +52,19 @@ li h2 {
     text-align: center;
 }
 
+#posts {
+    margin-top: 0;
+}
+
 #posts li {
     margin-bottom: 1em;
+}
+
+#posts h2 {
+    margin-top: 1em;
+}
+
+#hero {
+    padding-top: 2em;
+    padding-bottom: 1em;
 }

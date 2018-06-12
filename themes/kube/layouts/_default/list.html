@@ -9,7 +9,13 @@
 </div>
 <ul id="posts">
 
- {{ range .Paginator.Pages }} {{ partial "page-summary" . }} {{ end }}
+ {{ range .Paginator.Pages }}
+    {{ partial "page-summary" . }}
+    <p>{{ .Summary }}</p>
+    {{ if .Truncated }}
+    <a href="{{ .RelPermalink }}">Read more&hellip;</a>
+    {{ end }}
+ {{ end }}
   <section>{{ partial "pagination" .}}</section>
 </ul>
 
