@@ -206,9 +206,9 @@ For the purpose of testing that your circuit works though, uncomment line 69 in 
 
 `_interval = (uint32_t)val;`
 
-This will not map the value (in which case the minimum interval is 5 minutes) and will activate the laser ever 22 seconds. Since the laser normally stays on for 15 minutes, every _other_ pulse will turn the laser back _off_ again, just as it would if you pressed the button on the back of the casing. If this works and the laser activates every 22 seconds, comment that line again and re-upload the firmware.
+This will not map the value (in which case the minimum interval is 5 minutes) and will activate the laser ever 22 seconds. Since the laser normally stays on for 15 minutes, everyï¿½_other_ pulse will turn the laser backï¿½_off_ again, just as it would if you pressed the button on the back of the casing. If this works and the laser activates every 22 seconds, comment that line again and re-upload the firmware.
 
-Now, re-seat the controller board in it's mounts and then place the ATTiny circuit in the empty space of the casing on the opposite side from the main controller board as shown in the picture below.  Now the casing can be closed back up, again carefully to avoid breaking the tabs.
+Now, re-seat the controller board in it's mounts and thenï¿½place the ATTiny circuit in the empty space of the casing on the opposite side from the main controller board as shown in the picture below. ï¿½Now the casing can be closed back up, again carefully to avoid breaking the tabs.
 
 {{< gallery dir="/wp-content/galleries/2013-08-26-automatic-cat-lasers/3/" />}}
 
@@ -218,9 +218,9 @@ Now, re-seat the controller board in it's mounts and then place the ATTiny circu
 
 As with the external ICSP header, I also wanted to include a switch that would turn the ATTiny circuit on or off to allow the BOLT to be used as normal. But the curved casing just made that more trouble when it's worth so I just take the batteries out when it's not being used. As you can see in the code, it's programmed to play the tune and activate the laser as soon as power is applied and then at the specified interval afterwards.
 
-I included the piezo on a whim thinking that Skeletor might learn that hearing it meant lasers, but didn't really believe this would be the case. I was _**wrong**_. It doesn't matter where he is in the house: when he hears "Twinkle Little Star" playing on that buzzer he comes running!
+I included the piezo on a whim thinking that Skeletor might learn that hearing it meant lasers, but didn't really believe this would be the case. I wasï¿½_**wrong**_. It doesn't matter where he is in the house: when he hears "Twinkle Little Star" playing on that buzzer he comes running!
 
-While the ATTiny would likely draw so little power compared to the laser and motor as to not make a difference in the battery life, I'm glad I chose to include the power saving features. By the time we returned from our week-long vacation, the laser and it's movement was pitiful, with the laser actually dimming every time the motor turned. This could be alleviated but increasing the  activation interval as the default of 2 hours means it will run 12 times per day for 15 minutes each. That's 3 hours of the laser and motor being on every day! So, I guess a week is not that bad. But in the future, I might just wired in a 3.3V wall power supply to keep things running at full power indefinitely.
+While the ATTiny would likely draw so little power compared to the laser and motor as to not make a difference in the battery life, I'm glad I chose to include the power saving features. By the time we returned from our week-long vacation, the laser and it's movement was pitiful, with the laser actually dimming every time the motor turned. This could be alleviated but increasing the activation interval as the default of 2 hours means it will run 12 times per day for 15 minutes each. That's 3 hours of the laser and motor being on every day! So, I guess a week is not that bad. But in the future, I might just wired in a 3.3V wall power supply to keep things running at full power indefinitely.
 
 I hope you enjoyed this little tutorial and that your cats might enjoy it too. Thanks for reading!
 
