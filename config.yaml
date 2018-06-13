@@ -28,6 +28,9 @@ menu:
     - name: Projects
       weight: -100
       url: /projects/
+    - name: Products
+      weight: -100
+      url: /products/
     - name: Blog
       weight: -100
       url: /posts/
