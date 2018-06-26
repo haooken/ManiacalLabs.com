@@ -15,6 +15,22 @@ a {
     text-decoration: none;
 }
 
+#components h2 {
+    color: #f36926;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* #components h2 a:hover {
+    color: #f36926;
+} */
+
+#components p {
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 1.5em;
+}
+
 a:hover {
     color: #000000;
     text-decoration: none;
@@ -67,4 +83,18 @@ li h2 {
 #hero {
     padding-top: 2em;
     padding-bottom: 1em;
+}
+
+#components .item {
+    background-size: 100%;
+}
+
+#components .item:hover {
+    background-image: none;
+    background-size: 100%;
+    -moz-transition: none;
+    transition: none;
+    /* background: none; */
+    background-size: 0%;
+    background-color: #ffffff;
 }
