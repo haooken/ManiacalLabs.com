@@ -1,0 +1,13 @@
+<div id="components">
+  <div class="row gutters">
+    {{ range .Data.Pages.ByWeight }}
+    <div class="col col-4 item" style="background-image: url('{{ .Params.thumb }}');">
+      <a href="{{ .Permalink }}">
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Params.description }}</p>
+      </a>
+    </div>
+    {{ end }}
+
+  </div>
+</div>
