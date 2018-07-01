@@ -2,10 +2,9 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-bref: ""
 weight: 20
-toc: true
+thumb: ""
 # slug:
-# description:
-# author:
+description: ""
+type: page
 ---

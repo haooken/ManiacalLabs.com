@@ -98,3 +98,11 @@ li h2 {
     background-size: 0%;
     background-color: #ffffff;
 }
+
+#top-brand img {
+    width: 175px;
+}
+
+#top #top-brand {
+    margin-right: 2em;
+}

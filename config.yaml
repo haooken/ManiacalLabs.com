@@ -15,6 +15,7 @@ canonifyURLS: true
 
 Paginate: 10
 Params:
+  logo: /images/logo.png
   RSSLink: /feed/
   author: Maniacal Labs
   github: ManiacalLabs
@@ -23,18 +24,21 @@ Params:
   email: contact@maniacallabs.com
 menu:
   main:
-    # - name: Docs
-    #   weight: -100
-    #   url: /docs/
-    - name: Projects
-      weight: -100
-      url: /projects/
     - name: Products
-      weight: -100
+      weight: 10
       url: /products/
     - name: Blog
-      weight: -100
+      weight: 20
       url: /posts/
+    - name: Projects
+      weight: 30
+      url: /projects/
+    - name: Build Log
+      weight: 35
+      url: /buildlog/
     - name: About
-      weight: -100
-      url: /About/
+      weight: 40
+      url: /about/
+    - name: Contact
+      weight: 50
+      url: /contact/
