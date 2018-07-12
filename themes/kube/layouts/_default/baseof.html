@@ -32,6 +32,8 @@
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}
   <link rel="next" href="{{ .Params.next }}"> {{ end }}
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
   {{ partial "favicon" . }}
 
   <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
@@ -49,6 +51,8 @@
   </script>
 
   <script type="text/javascript" src="{{ "/js/tocbot.min.js" | relURL }}"></script>
+
+
 </head>
 
 
