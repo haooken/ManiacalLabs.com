@@ -4,3 +4,12 @@
 ### Gallery Usage Details
 
 https://www.liwen.id.au/heg/
+
+python new.py post "New Website!"
+hugo new posts/2018/7/New_Website/index.md
+C:\dev\ManiacalLabs.com\content\posts\2018\7\New_Website\index.md created
+
+
+New doc created @ C:\dev\ManiacalLabs.com\content\posts\2018\7\New_Website\index.md
+Static resources may be included in the same directory
+and referenced as a relative path.

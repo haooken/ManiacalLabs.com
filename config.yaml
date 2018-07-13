@@ -7,7 +7,7 @@ permalinks:
   code: '/:slug/'
 theme: kube
 # disqusShortname: username
-# googleAnalytics: ''
+googleAnalytics: UA-41371810-1
 canonifyURLS: true
 enableRobotsTXT: true
 
