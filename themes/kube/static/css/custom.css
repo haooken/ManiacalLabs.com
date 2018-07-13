@@ -100,7 +100,7 @@ li h2 {
 }
 
 #top-brand img {
-    width: 175px;
+    max-width: 60px;
 }
 
 #top #top-brand {
