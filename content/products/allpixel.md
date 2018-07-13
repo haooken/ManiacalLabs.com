@@ -4,7 +4,7 @@ description: Universal USB LED Controller
 date: 2014-10-26 14:06:27+00:00
 draft: false
 title: AllPixel
-thumb: /ManiacalLabs.com/images/products/apm.png
+thumb: /images/products/apm.png
 type: page
 aliases:
   - /allpixel/

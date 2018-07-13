@@ -4,7 +4,7 @@ date: 2016-03-05 17:06:07+00:00
 draft: false
 title: WyoManiacalDisplay
 type: page
-thumb: /ManiacalLabs.com/images/wmd.png
+thumb: /images/wmd.png
 description: 3k Pixels / 400 Watts
 url: /wyomaniacaldisplay/
 ---

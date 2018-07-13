@@ -5,7 +5,7 @@ description: Light Programming System
 draft: false
 title: BiblioPixel
 type: page
-thumb: /ManiacalLabs.com/images/bibliopixel.png
+thumb: /images/bibliopixel.png
 aliases:
     - /bibliopixel/
 ---

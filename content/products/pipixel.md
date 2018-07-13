@@ -5,7 +5,7 @@ date: 2017-08-12 22:48:09+00:00
 draft: false
 title: PiPixel
 type: page
-thumb: /ManiacalLabs.com/images/products/pipixel.png
+thumb: /images/products/pipixel.png
 aliases:
     - /pipixel/
 weight: 20

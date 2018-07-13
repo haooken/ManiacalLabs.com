@@ -3,7 +3,7 @@ author: adam
 description: Massive LED Display
 draft: false
 title: Colossus
-thumb: /ManiacalLabs.com/images/colossus.png
+thumb: /images/colossus.png
 url: /colossus/
 type: page
 ---
