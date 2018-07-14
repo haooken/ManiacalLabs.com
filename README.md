@@ -76,6 +76,8 @@ For resources which must remain at an easily known location but don't need to li
 
 # Images
 
+Note: ALL images should be no larger that 960x960 unless you have a really good reason for it!
+
 There are a couple of ways to add images to a page, the simplest being the standard markdown image syntax:
 
 `![Image AltText](image.png)`
@@ -104,6 +106,8 @@ Unfortunately, this must use directories under `static` so the path above would 
 ```
 
 If done that way, the images may be stored alongside the content doc. For more usage details see the [Hugo Easy Gallery docs](https://www.liwen.id.au/heg/).
+
+The `gallery` shortode also supports automatically finding and using smaller thumbnail images for the gallery. See the gallery docs linked above for more.
 
 # Local Hugo Server
 
