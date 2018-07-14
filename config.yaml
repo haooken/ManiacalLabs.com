@@ -6,7 +6,7 @@ permalinks:
   posts: '/:year/:month/:day/:slug/'
   code: '/:slug/'
 theme: kube
-# disqusShortname: username
+disqusShortname: maniacallabs
 googleAnalytics: UA-41371810-1
 canonifyURLS: true
 enableRobotsTXT: true
