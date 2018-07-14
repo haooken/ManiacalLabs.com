@@ -114,3 +114,7 @@ li h2 {
 .fab {
     font-size: 2em;
 }
+
+#top #top-nav-main li {
+    margin-right: 25px;
+}

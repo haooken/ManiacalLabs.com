@@ -32,9 +32,9 @@ menu:
     - name: Projects
       weight: 30
       url: /projects/
-    # - name: Build Log
-    #   weight: 35
-    #   url: /buildlog/
+    - name: Build Log
+      weight: 35
+      url: /buildlog/
     - name: About
       weight: 40
       url: /about/

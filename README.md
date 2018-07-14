@@ -109,6 +109,12 @@ If done that way, the images may be stored alongside the content doc. For more u
 
 The `gallery` shortode also supports automatically finding and using smaller thumbnail images for the gallery. See the gallery docs linked above for more.
 
+# Header Images
+
+Maybe there's a better way to do this, but I've not found it yet... The theme is setup to take the first image for apost and use it in the sumary on the various post lists. However, this is *not* the first image referenced in the `index.md` file of the post. It's the first `image resource` as Hugo defines it. Which basically means the first image file in that directory.
+
+Therefore, to keep a sensible standards, all posts should have an image named `!header.<png|jpg>`. The `!` will make sure it's the "first" image seen by Hugo. But if you want it to show up on the actual post page, you still have to include it in the document. That is not required.
+
 # Local Hugo Server
 
 The other reason to have Hugo installed locally is that you can use it as a development server while creating new content. From the repo root, simply run:

@@ -7,6 +7,8 @@ type: page
 thumb: /images/wmd.png
 description: 3k Pixels / 400 Watts
 url: /wyomaniacaldisplay/
+aliases:
+  - /WyoManiacalDisplay/
 ---
 
 
