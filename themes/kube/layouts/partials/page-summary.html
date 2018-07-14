@@ -3,6 +3,11 @@
         <a href="{{ .Permalink }}" itemprop="headline">{{ .Title }}</a>
     </h2>
     <hr>
+    <a href="{{ .Permalink }}" itemprop="headline">
+    {{ range first 1 (.Resources.ByType "image") }}
+      <img src="{{ .Permalink }}">
+    {{ end }}
+    </a>
     {{ if .Description }}
     <p itemprop="about">{{ .Description }}</p>
     {{ end }}
