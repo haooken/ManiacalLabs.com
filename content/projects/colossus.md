@@ -7,4 +7,4 @@ thumb: /images/colossus.png
 url: /colossus/
 type: page
 ---
-{{< redirect "/ManiacalLabs.com/2015/09/22/building-the-colossus-led-display/" >}}
+{{< redirect "/2015/09/22/building-the-colossus-led-display/" >}}
