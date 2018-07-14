@@ -7,10 +7,10 @@ categories: []
 weight: 20
 # slug:
 # description:
-# author:
+author: Adam Haile
 ---
 
-![New Website](hugo.png)
+{{< figure src="hugo.png" caption="Adam Haile" >}}
 
 Hard to believe it's been over 5 years since we started Maniacal Labs and kicked it off with somewhat [cryptic post](/2013/04/26/no-good-can-come-of-this/). It's been a fun ride since then and it just seemed about time to clean house and rebuild the website. While there's defintely some new exciting stuff in the piepline, not really much else to report here. But be sure to follow us on Twitter, Instagram, Facebook, or GitHub (see links at top of page) to stay up to date!
 
