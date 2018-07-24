@@ -1,7 +1,7 @@
 ---
 title: $$TITLE$$
 date: {{ .Date }}
-draft: true
+draft: false
 tags: []
 categories: []
 weight: 20
