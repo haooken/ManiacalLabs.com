@@ -1,7 +1,7 @@
 ---
 title: Virtual Pinball Table - Input!
 date: 2018-07-24T17:58:05-04:00
-draft: true
+draft: false
 tags: []
 categories: []
 weight: 20
