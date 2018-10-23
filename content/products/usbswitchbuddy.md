@@ -1,7 +1,7 @@
 ---
 title: USB Switch Buddy
 date: 2018-10-23T18:27:25-04:00
-draft: true
+draft: false
 weight: 20
 thumb: /images/products/usbswitchbuddy.jpg
 # slug:

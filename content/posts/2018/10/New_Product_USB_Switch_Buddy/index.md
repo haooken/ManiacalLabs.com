@@ -14,6 +14,8 @@ weight: 20
 
 Today we are pleased to announce a new product: The [USB Switch Buddy](https://www.tindie.com/products/ManiacalLabs/usb-switch-buddy/)
 
+<!-- more -->
+
 This kit was made to solve a simple problem: Connecting to a USB device without also powering it off the USB host.
 
 Originally this came about with one of our 3D printers where the main control board would receive power from the Raspberry Pi running OctoPrint. The original solution was some mild surgery on a spare USB cable. But there are plenty of other situations we run into on a regular basis where this has become a problem. For example, many of our LED displays require far more power than USB can deliver, so power is provided to the micro-controller separate from the USB connection. With the USB Switch Buddy that's no longer a problem.
