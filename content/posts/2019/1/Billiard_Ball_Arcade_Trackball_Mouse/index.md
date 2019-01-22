@@ -1,6 +1,6 @@
 ---
 title: Billiard Ball Arcade Trackball Mouse
-date: 2019-01-23T16:59:19-05:00
+date: 2019-01-22T16:59:19-05:00
 draft: false
 tags: []
 categories: []
@@ -19,7 +19,7 @@ I... I use a trackball mouse.
 
 There. I said it. Glad that's finally out.
 
-I used to be a regular mouse user like everyone else, but between repetative stress injury, frequently working on my laptop while watching TV on the couch, and absolutely *hating* trackpads; a trackball was the way to go. But, if I'm honest, I've gained a bit of an obsession with them. Currently I rock out with the Logitech [M570](https://www.logitech.com/en-us/product/wireless-trackball-m570 ) and [MX Ergo](https://www.logitech.com/en-us/product/mx-ergo-wireless-trackball-mouse).
+I used to be a regular mouse user like everyone else, but between repetitive stress injury, frequently working on my laptop while watching TV on the couch, and absolutely *hating* trackpads; a trackball was the way to go. But, if I'm honest, I've gained a bit of an obsession with them. Currently I rock out with the Logitech [M570](https://www.logitech.com/en-us/product/wireless-trackball-m570 ) and [MX Ergo](https://www.logitech.com/en-us/product/mx-ergo-wireless-trackball-mouse).
 
 So, a few months ago, when my wife and I were watching *Ocean's 8*, my jaw dropped a bit when I saw this:
 
@@ -27,13 +27,13 @@ So, a few months ago, when my wife and I were watching *Ocean's 8*, my jaw dropp
 
 Did I mention I also love billiards? I'm no good, but I play whenever I get a chance.
 
-But anyways, what you see there is the trackball mouse used by the character "9-Ball", the con-woman team's quirky hacker, played by Rihanna.  There's only a couple brief shots of the actual mouse in the film and it at least appears to work (more on this in a secon). Ridiculous as it is, I had to have one.
+But anyways, what you see there is the trackball mouse used by the character "9-Ball", the con-woman team's quirky hacker, played by Rihanna.  There's only a couple brief shots of the actual mouse in the film and it at least appears to work (more on this in a second). Ridiculous as it is, I had to have one.
 
 Fortunately, the internet is vast these days and it took mere seconds to find out that the mouse in question was the popular [Kensington Expert](https://www.trackballmouse.org/kensington-expert-trackball-in-the-movie-oceans-8/) but that it also wouldn't work.. at least not well.
 
-You see, the Kensington Expert uses a 55mm (2.16 inch) ball but a standard american billiard ball is 57.3 (2.25 inch). So, at best, the billiard ball is slightly oversized and doesn't perfectly interact with the sensors. At worst, the sensors won't see it at all and, *gasp*, what you see in the film is pure movie magic.
+You see, the Kensington Expert uses a 55mm (2.16 inch) ball but a standard American billiard ball is 57.3 (2.25 inch). So, at best, the billiard ball is slightly oversized and doesn't perfectly interact with the sensors. At worst, the sensors won't see it at all and, *gasp*, what you see in the film is pure movie magic.
 
-But really, that was no matter because, as a trackball afficionado, I have opinions about these things and trackballs with a center ball instead of under the thumb are terrible and should be avoided. And besides, I didn't want the mouse from the movie... I wanted a mouse with a billiard ball. So in my true fashion, I started with a single specification, the 2 1/4 inch billiard ball and tried to find something that would work.
+But really, that was no matter because, as a trackball aficionado, I have opinions about these things and trackballs with a center ball instead of under the thumb are terrible and should be avoided. And besides, I didn't want the mouse from the movie... I wanted a mouse with a billiard ball. So in my true fashion, I started with a single specification, the 2 1/4 inch billiard ball and tried to find something that would work.
 
 Now, sure, I'm entirely capable of rolling my own solution, but my time is precious. And while research showed that there were no regular computer mice that used a ball of that size (the Kensington was the largest), it turned out that arcade trackballs use both 2 1/4 and 3 inch. I ended up finding a not cheap, but not outrageous arcade trackball unit that is 80's Atari compatible and still manufactured by Happ over on [ArcadeShop.com](http://www.arcadeshop.com/i/19/2-trackball-unit-white-ball-atari-happ.htm)
 
@@ -55,7 +55,7 @@ Now, I could have easily just wired all the buttons and trackball directly to th
 
 This also, of course, acts as mounting for the Teensy inside the mouse itself which is a lot better that hot glue :P
 
-At this point the big hurdle was designing the mouse itself, which of course fell to Fusion 360. The main issues were getting everything to fit and to be as ergonimic as possible. With Fusion it was relatively easy to get the basics by taking a top-down picture of my own hand over the trackball assembly. That image was than overlayed in the CAD model as a canvas and calibrated to the correct size via the CAD model I had already made of the trackball. This allowed finding the correct placement of the 3 main mouse buttons under each finger. Note to those who may want to make their own: Small hands need not apply. This is very much designed for me.
+At this point the big hurdle was designing the mouse itself, which of course fell to Fusion 360. The main issues were getting everything to fit and to be as ergonomic as possible. With Fusion it was relatively easy to get the basics by taking a top-down picture of my own hand over the trackball assembly. That image was than overplayed in the CAD model as a canvas and calibrated to the correct size via the CAD model I had already made of the trackball. This allowed finding the correct placement of the 3 main mouse buttons under each finger. Note to those who may want to make their own: Small hands need not apply. This is very much designed for me.
 
 {{< figure src="ergo.png" >}}
 
@@ -63,7 +63,7 @@ With that part figured out it was just a lot of sketching, extruding, pushing, a
 
 {{< figure src="arcademouse.gif" >}}
 
-Remember, those are 24mm buttons and a 2.25" trackball! I would have preferred to make it smaller of course, but there was just no ruom for the hardware involved. And at that mount I needed to have a built-in wrist rest to make it comfortable. Fortunately, I have a massive 3D printer which made short work of the case in only 2 pieces :)
+Remember, those are 24mm buttons and a 2.25" trackball! I would have preferred to make it smaller of course, but there was just no room for the hardware involved. And at that point I needed to have a built-in wrist rest to make it comfortable. Fortunately, I have a massive 3D printer which made short work of the case in only 2 pieces :)
 
 {{< gallery >}}
     {{< figure link="/images/arcademouse/print1.jpg" >}}
@@ -83,13 +83,13 @@ Originally my plan was just to leave it as is, straight off the printer. But my 
 
 Maybe sometime I'll get Sam to share is 3D print painting secrets with the world ;)
 
-In my typical fasion I left most of the code for this project until the hardware was done. Of course I had proof of concept code to be decently sure it would work but I left the bulk of the fine details until now. The one thing I wish I had tried more was all the different buttons and their LEDs. As noted before I had a bit of an issue with the buttons other than blue and clear. For some reason, the red and yellow buttons barely lit up at all when using the 3.3V available on the Teensy white blue and clear did. Honestly I was surprised they worked at all but I was just happy that two colors worked and fortunately had ordered extras so I just stuck with those two colors, as you can see in the video below:
+In my typical fashion I left most of the code for this project until the hardware was done. Of course I had proof-of-concept code to be decently sure it would work but I left the bulk of the fine details until now. The one thing I wish I had tried more was all the different buttons and their LEDs. As noted before I had a bit of an issue with the buttons other than blue and clear. For some reason, the red and yellow buttons barely lit up at all when using the 3.3V available on the Teensy, while blue and clear did. Honestly I was surprised they worked at all but I was just happy that two colors worked and fortunately had ordered extras so I just stuck with those two colors, as you can see in the video below:
 
 <video preload="auto" muted loop autoplay src="ArcadeMouse.mp4"></video>
 
 Other than that little snag, the code was pretty trivial. All it really does is read the two encoder outputs and all five buttons, then sends the appropriate signals over USB using the `Mouse` class that comes with the Teensy software.
 
-The two non-standard buttons that you may be wondering about are the two clear ones. The one at the top is the the sensitivity toggle. Because this is an arcade trackball the ball has to move farther than is really desireable for each pulse sent from the encoder. So to make the mouse more usable, I simply multiply the output of the encoder so that one pulse actually moves the mouse four pixels in the given direction. But this can make the mouse less precise. So toggling that button drops the multiplier down to two instead of 4, making for slower movement but much more precise tracking.
+The two non-standard buttons that you may be wondering about are the two clear ones. The one at the top is the the sensitivity toggle. Because this is an arcade trackball the ball has to move farther than is really desirable for each pulse sent from the encoder. So to make the mouse more usable, I simply multiply the output of the encoder so that one pulse actually moves the mouse four pixels in the given direction. But this can make the mouse less precise. So toggling that button drops the multiplier down to two instead of 4, making for slower movement but much more precise tracking.
 
 The second button, the one below the trackball, is the scroll button. Holding this button will cause the trackball to send scroll wheel signals instead of mouse movements.
 
@@ -101,9 +101,9 @@ After using the mouse for over a week at the day job I've got to say I like it. 
 
 Were I to do it again, however, there are a few things I would change.
 
-The scroll button position made sense at the time of design, with the thought that I would just move my hand so that my thumb was over the button and fingers over the ball. But in actually usage that immeadiately seems silly, because I have to move my hand! What was I thinking?! What I should've done was place that button under my pinky finger so that my hand never had to move at all. Fortunately I got pretty used to only barely moving my hand to scroll, but I may still think about redesigning the case a bit to change the layout in the future.
+The scroll button position made sense at the time of design, with the thought that I would just move my hand so that my thumb was over the button and fingers over the ball. But in actually usage that immediately seems silly, because I have to move my hand! What was I thinking?! What I should've done was place that button under my pinky finger so that my hand never had to move at all. Fortunately I got pretty used to only barely moving my hand to scroll, but I may still think about redesigning the case a bit to change the layout in the future.
 
-Second, I would like to attempt implementing some sort of mouse movement accelleration in the firmware. Something to the effect of the more cycles that go by with continuous mouse movement, the higher the movement multiplier. This would make fast and far movements easy, but allow precise tracking without needing that toggle button. Fortunately that's a software change that I can still do in the future.
+Second, I would like to attempt implementing some sort of mouse movement acceleration in the firmware. Something to the effect of the more cycles that go by with continuous mouse movement, the higher the movement multiplier. This would make fast and far movements easy, but allow precise tracking without needing that toggle button. Fortunately that's a software change that I can still do in the future.
 
 And, honestly, that's it. It's fun to use and a major conversation starter. Amazingly the reaction has always been along the lines of **"what's with that crazy mouse?!"** and not **"what on earth is that?!"**. So I'm proud to have still made it obvious what it is, despite the crazy and huge design :)
 
@@ -111,3 +111,4 @@ So, you've made it this far and that probably means you're interested in the min
 Have no fear, everything you could ever want - PCB designs, Firmware, and CAD files - are all available over on GitHub: https://github.com/ManiacalLabs/ArcadeTrackballMouse
 
 That's all for now. Thanks for following along with my journey of creating something that should likely not exist :)
+
