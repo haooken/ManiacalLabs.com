@@ -55,7 +55,7 @@ Now, I could have easily just wired all the buttons and trackball directly to th
 
 This also, of course, acts as mounting for the Teensy inside the mouse itself which is a lot better that hot glue :P
 
-At this point the big hurdle was designing the mouse itself, which of course fell to Fusion 360. The main issues were getting everything to fit and to be as ergonomic as possible. With Fusion it was relatively easy to get the basics by taking a top-down picture of my own hand over the trackball assembly. That image was than overplayed in the CAD model as a canvas and calibrated to the correct size via the CAD model I had already made of the trackball. This allowed finding the correct placement of the 3 main mouse buttons under each finger. Note to those who may want to make their own: Small hands need not apply. This is very much designed for me.
+At this point the big hurdle was designing the mouse itself, which of course fell to Fusion 360. The main issues were getting everything to fit and to be as ergonomic as possible. With Fusion it was relatively easy to get the basics by taking a top-down picture of my own hand over the trackball assembly. That image was than overlaid in the CAD model as a canvas and calibrated to the correct size via the CAD model I had already made of the trackball. This allowed finding the correct placement of the 3 main mouse buttons under each finger. Note to those who may want to make their own: Small hands need not apply. This is very much designed for me.
 
 {{< figure src="ergo.png" >}}
 
