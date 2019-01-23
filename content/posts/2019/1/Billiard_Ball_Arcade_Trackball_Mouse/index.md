@@ -89,7 +89,7 @@ In my typical fashion I left most of the code for this project until the hardwar
 
 Other than that little snag, the code was pretty trivial. All it really does is read the two encoder outputs and all five buttons, then sends the appropriate signals over USB using the `Mouse` class that comes with the Teensy software.
 
-The two non-standard buttons that you may be wondering about are the two clear ones. The one at the top is the the sensitivity toggle. Because this is an arcade trackball the ball has to move farther than is really desirable for each pulse sent from the encoder. So to make the mouse more usable, I simply multiply the output of the encoder so that one pulse actually moves the mouse four pixels in the given direction. But this can make the mouse less precise. So toggling that button drops the multiplier down to two instead of 4, making for slower movement but much more precise tracking.
+The two non-standard buttons that you may be wondering about are the two clear ones. The one at the top is the the sensitivity toggle. Because this is an arcade trackball the ball has to move farther than is really desirable for each pulse sent from the encoder. So to make the mouse more usable, I simply multiply the output of the encoder so that one pulse actually moves the mouse four pixels in the given direction. But this can make the mouse less precise. So toggling that button drops the multiplier down to two instead of four, making for slower movement but much more precise tracking.
 
 The second button, the one below the trackball, is the scroll button. Holding this button will cause the trackball to send scroll wheel signals instead of mouse movements.
 
@@ -101,7 +101,7 @@ After using the mouse for over a week at the day job I've got to say I like it. 
 
 Were I to do it again, however, there are a few things I would change.
 
-The scroll button position made sense at the time of design, with the thought that I would just move my hand so that my thumb was over the button and fingers over the ball. But in actually usage that immediately seems silly, because I have to move my hand! What was I thinking?! What I should've done was place that button under my pinky finger so that my hand never had to move at all. Fortunately I got pretty used to only barely moving my hand to scroll, but I may still think about redesigning the case a bit to change the layout in the future.
+The scroll button position made sense at the time of design, with the thought that I would just move my hand so that my thumb was over the button and fingers over the ball. But in actual usage that immediately seems silly, because I have to move my hand! What was I thinking?! What I should've done was place that button under my pinky finger so that my hand never had to move at all. Fortunately I got pretty used to only barely moving my hand to scroll, but I may still think about redesigning the case a bit to change the layout in the future.
 
 Second, I would like to attempt implementing some sort of mouse movement acceleration in the firmware. Something to the effect of the more cycles that go by with continuous mouse movement, the higher the movement multiplier. This would make fast and far movements easy, but allow precise tracking without needing that toggle button. Fortunately that's a software change that I can still do in the future.
 
