@@ -1,6 +1,6 @@
 ---
 title: Custom CNC Wasteboard
-date: 2019-02-25T23:30:04-05:00
+date: 2019-03-05T00:00:00
 draft: false
 tags: []
 categories: []
