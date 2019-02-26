@@ -31,6 +31,8 @@ Note that `post` is not the only type option. You may also use `buildlog`, `prod
 
 If you want to simply create a root level page, just use `hugo new <page_name>`
 
+Note: `new.py` will automatically populate the author field based on `git config user.name`
+
 # Content Front-Matter
 All Hugo docs have "front-matter" at the top of the markdown file that will look something like this:
 
@@ -54,6 +56,18 @@ The `slug` option will override the final URL instead of what's described above.
 `tags` and `categories` are optional but encouraged and can be a list of anything.
 
 **The most important thing to note** is that all new content will default to `draft: true` which means that they *will not* be rendered out the the live website if commited to the master branch. Leaving this as true until ready to go live with the post is encouraged.  Please see [Local Hugo Server](#local-hugo-server) below for details on using drafts.
+
+# Scheduling Posts
+
+You can now setup posts to be published in the future. By default `new.py` sets the `date` field in the content front-matter to be the time of file creation. This will cause the post to go public as soon as it hits master. Instead you may change the `date` field to something like:
+
+`2020-03-05T00:00:00`
+
+This will not go live until March 5, 2020 at midnight.
+
+**PLEASE NOTE**: You should always set the time to 00:00:00 otherwise the post may not go live until the next day, due to how Travis is scheduled.
+
+Travis will rebuild master once per day, and any posts dated before the time of that build will then be pushed.
 
 # Content Resources
 
