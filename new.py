@@ -38,6 +38,17 @@ if new_type not in valid_types:
 
 path = '{}/{}/{}/{}/index.md'.format(new_type, year, month, title_path)
 
+author = ""
+p = subprocess.Popen('git config user.name', stdout=subprocess.PIPE, shell=True)
+(output, err) = p.communicate()
+output = output.decode("utf-8")
+res = p.wait()
+if res:
+    print(err)
+    sys.exit(res)
+
+author = output.strip()
+
 cmd = 'hugo new {}'.format(path)
 print(cmd)
 
@@ -56,7 +67,8 @@ with open(full_path, 'r+') as f:
     content = f.read()
     f.truncate()
     f.seek(0)
-    f.write(content.replace('$$TITLE$$', title))
+    content = content.replace('$$TITLE$$', title).replace("# author:", "author: {}".format(author))
+    f.write(content)
     f.flush()
 
 print("""

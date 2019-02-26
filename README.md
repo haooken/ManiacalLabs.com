@@ -117,11 +117,11 @@ Therefore, to keep a sensible standards, all posts should have an image named `!
 
 # Local Hugo Server
 
-The other reason to have Hugo installed locally is that you can use it as a development server while creating new content. From the repo root, simply run:
+The other reason to have Hugo installed locally is that you can use it as a development server while creating new content. From the repo root, simply run the provided script which wraps everything you need:
 
-`hugo server -D -v`
+`./gohugo`
 
-This will run the hugo development server in verbose mode (best for hunting down render errors) and render draft documents (-D).
+This will run the hugo development server in verbose mode (best for hunting down render errors) and render draft and future dated documents (-D -F).
 
 The site can then be previewed at http://localhost:1313/
 
