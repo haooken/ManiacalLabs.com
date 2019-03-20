@@ -14,7 +14,7 @@ author: Adam Haile
 
 [Previously]({{< ref "/posts/2019/2/CNC_Dust_Boot_for_Dewalt_Router" >}}) on *The New Maniacal Labs Workshop*, we built a dust boot for the [Probotix Comet CNC](https://www.probotix.com/CNC-ROUTERS/CNC-ROUTER-GX2525-COMET). Today, it's time to upgrade the wasteboard that came with the machine. First, a little background information:
 
-This particular CNC was barely used when acquired and had sat in a basement for a number of years before being brought back to life. This particular CNC ships with a wasteboard that covers the entire frame of the machine with the frame itself being mostly just four 60x30mm aluminum extrusions in a rectangle. This caused a few of issues as far as I was concerned.
+This particular CNC was acquired from the awesome Justin over at [WyoLum](http://wyolum.com). It was only lightly used when we got it and had sat in a basement for a number of years before making it to the Maniacal Labs shop and being brought back to life. It  ships with a wasteboard that covers the entire frame of the machine, with the frame itself being just four 60x30mm aluminum extrusions in a rectangle. This caused a few of issues as far as I was concerned.
 
 First, it was visually noticeable that the wasteboard was not flat in relation to the router gantry. After fabricating a simple holder to attach a dial indicator to the dust boot mount, I found that the deviation from the origin point covered a 0.045" (1.2mm) spread. This may not sound like much, but for a CNC router it is pretty extreme. The most egregious point on the wasteboard was in the middle and that was very clearly because there was no central support, causing the board to sag. Normally this could be mostly fixed by resurfacing the board, however...
 
